@@ -5,5 +5,47 @@
 }
 
 :root{
-    
+    --color-blue: #182C4D;
+    --color-accent: #F5D7BE;
+    --font-cicle: 'Circe', sans-serif;
+    --font-ubuntu:'Ubuntu', sans-serif;
+}
+
+
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: var(--font-cicle);
+}
+
+/* header */
+.header{
+    position: fixed;
+    width: 100%;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__soc{
+    display: flex;
+    justify-content: space-between;
+}
+.header__contacts{
+    display: flex;
+    justify-content: center;
+}
+.header__nav ul{
+    display: flex;
+    align-items: center;
+}
+.header__navMenu{
+    display: flex;
+    align-items: center;
 }
