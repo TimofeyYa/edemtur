@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -112,7 +112,7 @@
     </header>
     <main class="main">
         <section class="firstscreen">
-            <div class="container">
+            <div class="container firstscreen__underBg">
                 <div class="firstscreen__logo">
                     <svg width="229" height="296" viewBox="0 0 229 296" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -121,7 +121,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="firstscreen__form">
+            <div class="firstscreen__form firstscreen__underBg">
                 <form action="">
                     <label for="">
                         <p>Заезд</p>
@@ -141,6 +141,14 @@
                     </label>
                     <button class="main__btn firstscreen__btn">Подобрать номер</button>
                 </form>
+            </div>
+            <div class="firstscreen__bg">
+                <div class="firstscreen__bgItem" style="background-image: url(./source/firtscreen/bg2.jpg);">
+                    <video src=""></video>
+                </div>
+                <div class="firstscreen__bgItem" style="background-image: url(./source/firtscreen/bg.jpg);">
+                    <video autoplay loop src="./source/firtscreen/pexels-kelly-lacy-9722139.mp4"></video>
+                </div>
             </div>
         </section>
 
@@ -165,14 +173,14 @@
                     </p>
                     <div class="pytevki__pic">
                         <div class="pytevki__controlWrap">
-                            <div class="pytevki__picControl">
+                            <div class="pytevki__picControl pytevki__picControlLeft">
                                 <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.14092e-05 7.99996L8 0V7.99996V15.9999L4.14092e-05 7.99996Z"
                                         fill="#162D4E" />
                                 </svg>
                             </div>
-                            <div class="pytevki__picControl">
+                            <div class="pytevki__picControl pytevki__picControlRight">
                                 <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-0.000244141 7.99996V0L7.99971 7.99996L-0.000244141 15.9999V7.99996Z"
@@ -181,14 +189,20 @@
                             </div>
                         </div>
                         <div class="pytevki__picContent">
-                            <div class="pytevki__picItem">
+                            <div class="pytevki__picItem" style="background-image: url(./source/restaran/ex.jpg);">
                                 <img src="./source/pytevki/ex1.jpg" alt="">
                             </div>
-                            <div class="pytevki__picItem">
+                            <div class="pytevki__picItem" style="background-image: url(./source/pytevki/ex1.jpg);">
                                 <img src="./source/pytevki/ex1.jpg" alt="">
                             </div>
-                            <div class="pytevki__picItem">
+                            <div class="pytevki__picItem" style="background-image: url(./source/pytevki/ex1.jpg);">
                                 <img src="./source/pytevki/ex1.jpg" alt="">
+                            </div>
+                            <div class="pytevki__picItem" style="background-image: url(./source/pytevki/ex1.jpg);">
+                                <img src="./source/pytevki/ex1.jpg" alt="">
+                            </div>
+                            <div class="pytevki__picItem" style="background-image: url(./source/restaran/ex.jpg">
+                                <img src="./source/restaran/ex.jpg" alt="">
                             </div>
 
                         </div>
@@ -225,8 +239,9 @@
             </div>
             <div class="number__slider">
                 <div class="number__sliderTrack">
-                    <div class="number__sliderItem">
-                        <div class="number__sliderPic" style="background-image: url(./source/number/ex.jpg);">
+                    <div class="number__sliderSec">
+                        <div class="number__sliderItem">
+                        <div class="number__sliderPic" style=" background-image: url(./source/number/ex.jpg);">
                         </div>
                         <div class="number__info">
                             <div class="number__sliderTitle">
@@ -279,6 +294,174 @@
                         <button class="main__btn number__btn">Забронировать номер</button>
                         <p class="number__txtUnderBtn">Описание номера</p>
                         </div>
+                        </div>
+                        <div class="number__sliderItem">
+                            <div class="number__sliderPic" style=" background-image: url(./source/number/ex.jpg);">
+                            </div>
+                            <div class="number__info">
+                                <div class="number__sliderTitle">
+                                    <h3>Двухместный «Твин» стандарт</h3>
+                                </div>
+                                <div class="number__sliderStarts">
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                </div>
+                                <div class="number__infoDesc">
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/cube.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>23 м<sup>2</sup></p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/mens.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>2 человека</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                           <img src="./source/ico/bed.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>2 спальных места</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/shower.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>Душевая кабина</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <button class="main__btn number__btn">Забронировать номер</button>
+                            <p class="number__txtUnderBtn">Описание номера</p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="number__sliderSec">
+                        <div class="number__sliderItem">
+                        <div class="number__sliderPic" style=" background-image: url(./source/number/ex.jpg);">
+                        </div>
+                        <div class="number__info">
+                            <div class="number__sliderTitle">
+                                <h3>Двухместный «Твин» стандарт</h3>
+                            </div>
+                            <div class="number__sliderStarts">
+                                <div class="number__sliderStartsItem"></div>
+                                <div class="number__sliderStartsItem"></div>
+                                <div class="number__sliderStartsItem"></div>
+                                <div class="number__sliderStartsItem"></div>
+                            </div>
+                            <div class="number__infoDesc">
+                                <div class="number__infoItem">
+                                    <div class="number__infoPic">
+                                        <img src="./source/ico/cube.png" alt="">
+                                    </div>
+                                    <div class="number__infoTxt">
+                                        <p>23 м<sup>2</sup></p>
+                                    </div>
+                                </div>
+
+                                <div class="number__infoItem">
+                                    <div class="number__infoPic">
+                                        <img src="./source/ico/mens.png" alt="">
+                                    </div>
+                                    <div class="number__infoTxt">
+                                        <p>2 человека</p>
+                                    </div>
+                                </div>
+
+                                <div class="number__infoItem">
+                                    <div class="number__infoPic">
+                                       <img src="./source/ico/bed.png" alt="">
+                                    </div>
+                                    <div class="number__infoTxt">
+                                        <p>2 спальных места</p>
+                                    </div>
+                                </div>
+
+                                <div class="number__infoItem">
+                                    <div class="number__infoPic">
+                                        <img src="./source/ico/shower.png" alt="">
+                                    </div>
+                                    <div class="number__infoTxt">
+                                        <p>Душевая кабина</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <button class="main__btn number__btn">Забронировать номер</button>
+                        <p class="number__txtUnderBtn">Описание номера</p>
+                        </div>
+                        </div>
+                        <div class="number__sliderItem">
+                            <div class="number__sliderPic" style=" background-image: url(./source/number/ex.jpg);">
+                            </div>
+                            <div class="number__info">
+                                <div class="number__sliderTitle">
+                                    <h3>Двухместный «Твин» стандарт</h3>
+                                </div>
+                                <div class="number__sliderStarts">
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                    <div class="number__sliderStartsItem"></div>
+                                </div>
+                                <div class="number__infoDesc">
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/cube.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>23 м<sup>2</sup></p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/mens.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>2 человека</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                           <img src="./source/ico/bed.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>2 спальных места</p>
+                                        </div>
+                                    </div>
+    
+                                    <div class="number__infoItem">
+                                        <div class="number__infoPic">
+                                            <img src="./source/ico/shower.png" alt="">
+                                        </div>
+                                        <div class="number__infoTxt">
+                                            <p>Душевая кабина</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <button class="main__btn number__btn">Забронировать номер</button>
+                            <p class="number__txtUnderBtn">Описание номера</p>
+                            </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -331,16 +514,18 @@
 
                 <div class="typepyt__content">
                     <div class="typepyt__pic" style="background-image: url(./source/typepyt/ex.jpg)">
+                        <img src="./source/typepyt/ex.jpg" alt="">
+                        <img src="./source/firtscreen/bg.jpg" alt="">
                     </div>
 
                     <div class="typepyt__info">
                         <div class="typepyt__controls">
-                            <div class="typepyt__control">
+                            <div class="typepyt__control typepyt__controlLeft">
                                 <svg width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-1.41869e-06 11.5L11.5 0V11.5V23L-1.41869e-06 11.5Z" fill="#162D4E"/>
                                 </svg>
                             </div>
-                            <div class="typepyt__control">
+                            <div class="typepyt__control typepyt__controlRight">
                                 <svg width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.5 11.5V0L12 11.5L0.5 23V11.5Z" fill="#162D4E"/>
                                 </svg>
@@ -348,6 +533,19 @@
                         </div>
                         <div class="typepyt__infoWrap">
                             <h3>Лечебная путевка</h3>
+                            <p>В санатории «Эдем» можно приобрести санаторно-курортную путевку продолжительностью от 10-ти дней и более. Для санаторно-курортной путевки рекомендуется пройти курс процедур продолжительностью минимум 14 дней, чтобы эффект от процедур был более ощутим.</p>
+                            <h4>В лечебную путевку входит:</h4>
+                            <ul class="typepyt__infoList">
+                                <li>— трехразовое питание в ресторане санатория;</li>
+                                <li>— проживание в номере выбранной категории;</li>
+                                <li>— осмотр и консультация врача, лечебные и оздоровительные процедуры( от 5-ти до 8-ми видов на курс), включая радоно и грязелечение;</li>
+                                <li>— посещение тренажерного зала</li>
+                                <li>— безлимитное посещение открытого бассейна (в летний период)</li>
+                            </ul>
+                            <button class="main__btn typepyt__add">Подробнее</button>
+                        </div>
+                        <div class="typepyt__infoWrap">
+                            <h3>Интересная путевка</h3>
                             <p>В санатории «Эдем» можно приобрести санаторно-курортную путевку продолжительностью от 10-ти дней и более. Для санаторно-курортной путевки рекомендуется пройти курс процедур продолжительностью минимум 14 дней, чтобы эффект от процедур был более ощутим.</p>
                             <h4>В лечебную путевку входит:</h4>
                             <ul class="typepyt__infoList">
@@ -396,12 +594,12 @@
                 <div class="restaran___content">
                   
                         <div class="restaran__controls">
-                            <div class="restaran__control">
+                            <div class="restaran__control restaran__controlLeft">
                                 <svg width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M-1.41869e-06 11.5L11.5 0V11.5V23L-1.41869e-06 11.5Z" fill="#162D4E"/>
                                 </svg>
                             </div>
-                            <div class="restaran__control">
+                            <div class="restaran__control restaran__controlRight">
                                 <svg width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0.5 11.5V0L12 11.5L0.5 23V11.5Z" fill="#162D4E"/>
                                 </svg>
@@ -409,7 +607,12 @@
                         </div>
 
                     <div class="restaran___pic">
-                        <img src="./source/restaran/ex.jpg" alt="">
+                        <div class="restaran___picItem" style="background-image: url(./source/restaran/ex.jpg);">
+                            <img src="./source/restaran/ex.jpg" alt="">
+                        </div>
+                        <div class="restaran___picItem" style="background-image: url(./source/rest/ex.jpg);">
+                            <img src="./source/restaran/ex.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -564,7 +767,11 @@
             </div>
         </div>
     </footer>
+
     <script src='./js/script.js'></script>
+    <script src='./js/mainpage/firstscreenSlider.js'></script>
+    <script src='./js/mainpage/simpleSlider.js'></script>
+    <script src='./js/mainpage/pytevkiSlider.js'></script>
 </body>
 
 </html>
