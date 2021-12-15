@@ -1,0 +1,51 @@
+@import url(../root.css);
+
+.docforCont__picWrap{
+    width: 20px;
+}
+.docforCont__listItem{
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+.docforCont{
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+.docforCont__list{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 11px;
+    max-width: 90%;
+}
+
+.docforCont__blockTitle h2{
+    font-size: 27px;
+    line-height: 39px;
+    
+    
+}
+.docforCont__blockTitle{
+    margin-bottom: 40px;
+}
+.docforCont__block:not(:last-child){
+    margin-bottom: 75px;
+}
+.docforCont__blockSubTitle{
+    font-size: 16px;
+line-height: 24px;
+}
+.docforCont__blockSubTitle h3{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.docforCont__list:not(:last-child){
+    margin-bottom: 42px;
+}
+.docforCont__listItem a{
+    color:black;
+}

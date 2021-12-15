@@ -1,0 +1,44 @@
+@import url(../root.css);
+
+.prirodaCont{
+    padding-top: 69px;
+    padding-bottom: 179px;
+}
+.prirodaCont__txt h2{
+    font-size: 27px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.prirodaCont__txt p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.prirodaCont__txt{
+    max-width: 90%;
+}
+.prirodaCont__txt p:not(:last-child){
+    margin-bottom: 15px;
+}
+.prirodaCont__pic{
+    width: 100%;
+    height: 533px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 57px;
+    margin-bottom: 60px;
+}
+.prirodaCont__txt:not(:first-child){
+    margin-top: 60px;
+}
+.allWraper{
+    position: relative;
+}
+.allWraper__bg{
+    position: absolute;
+    width: 100%;
+    height: 1418px;
+    background: #FAF0E6;
+    z-index: -1;
+    top: calc(480px + 20%);
+}

@@ -1,0 +1,72 @@
+@import url(../root.css);
+
+.specCont__sectorPic{
+    height: 362px;
+    width: 100%;
+}
+.specCont__sectorBlock{
+    display: grid;
+    grid-template-columns: 384px 1fr;
+    grid-column-gap: 33px;
+}
+.specCont__controlItem{
+    height: 57px;
+    padding: 0 39px;
+    display: flex;
+    align-items: center;
+    background: #FFF9F3;
+    opacity: 0.9;
+    color: #162D4E;
+    cursor: pointer;
+}
+.specCont__control{
+    display: flex;
+   
+
+}
+
+.specCont__controlItem--active{
+    background: #F5D7BE;
+    opacity: 1;
+    font-weight: bold;
+}
+.specCont__people{
+    padding: 70px 0;
+}
+.specCont__sectorName h3{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+}
+.specCont__sectorName{
+    padding-bottom: 17px;
+}
+.specCont__sectorDots{
+    display: flex;
+    grid-column-gap: 19px;
+}
+.specCont__sectorDots{
+    padding-bottom: 25px;
+}
+.specCont__sectorDesc{
+    font-size: 16px;
+    line-height: 24px;
+}
+.specCont__sectorDesc h5{
+    margin-bottom: 10px;
+}
+.workTime{
+    font-weight: 600;
+    padding-top: 14px;
+}
+.specCont__sector{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 45px;
+    display: none;
+}
+

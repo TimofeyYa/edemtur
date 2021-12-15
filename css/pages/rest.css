@@ -1,0 +1,29 @@
+@import url(../root.css);
+
+.restCont__blockPic{
+    height: 431px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.restCont__blocks{
+    padding-top: 70px;
+    display: grid;
+    grid-column-gap: 33px;
+    grid-row-gap: 73px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.restCont__block h3{
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 28px;
+
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #3A4C59;
+    margin-top: 15px;
+}
+.restCont{
+    padding-bottom: 171px;
+}

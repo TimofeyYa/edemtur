@@ -1,0 +1,60 @@
+@import url(../root.css);
+
+.pocCont{
+    padding-top: 70px;
+    padding-bottom: 162px;
+}
+.pocCont__block h2{
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+
+}
+.pocCont__dots{
+    margin-top: 23px;
+    display: flex;
+    grid-column-gap: 20px;
+}
+.pocCont__list{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 40px;
+}
+.pocCont__list ul{
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 12px;
+    grid-column-gap: 102px;
+    max-height: 300px;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+.pocCont__listItem{
+    width: 520px;
+}
+.pocCont__list{
+    padding-bottom: 45px;
+}
+.pocCont__block{
+    border-bottom: 4px solid #F5D7BE;
+}
+.pocCont__block:not(:last-child){
+    margin-bottom: 35px;
+}
+.protivCont__listItem{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    grid-gap: 20px;
+}
+.protivCont{
+    padding-top: 70px;
+    padding-bottom: 160px;
+}
+.protivCont__listItem:not(:last-child){
+    margin-bottom: 15px;
+}
+.protivCont__svgWrap{
+    width: 20px;
+}
