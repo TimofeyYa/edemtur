@@ -1,0 +1,31 @@
+@import url(../root.css);
+
+.spaDesc{
+    padding-top: 27px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.spaInfo{
+    display: flex;
+    grid-column-gap: 17px;
+}
+.spaInfo__cont{
+    padding-top: 35px;
+    display: flex;
+    grid-column-gap: 130px;
+}
+.spaInfo__name h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+.spaInfo__data{
+    padding-top: 6px;
+}
+.spaInfo__data p{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 24px;
+}
+.spaInfo__cont{
+    padding-bottom: 20px;
+}
