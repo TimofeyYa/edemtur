@@ -1,0 +1,74 @@
+@import url(../root.css);
+
+.medication__txt p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 1030px;
+    padding-right: 20px;
+}
+.medication__txt{
+    padding: 70px 0;
+    padding-bottom: 61px;
+}
+
+
+/* medicationCont__content */
+
+.medicationCont__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 534px);
+    grid-column-gap: 34px;
+    grid-row-gap: 40px;
+}
+.medicationCont__nameBlock{
+    width: 100%;
+    background: var(--color-blue);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+}
+.medicationCont__nameBlock h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #FFFFFF;
+}
+.medicationCont__block{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.medicationCont__subBlock{
+    background: var(--color-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.medicationCont__subBlock h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #FFFFFF;
+}
+.medicationCont__subPic{
+    margin-bottom: 4px;
+}
+.medicationCont{
+    padding-bottom: 151px;
+}

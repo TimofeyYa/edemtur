@@ -1,1 +1,68 @@
 @import url(./root.css);
+.firstscreen{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 463px;
+    padding-top: 160px;
+}
+.firstscreen__big{
+    height: 609px;
+}
+.firstscreen__bg{
+    background: linear-gradient(180deg, rgba(10, 22, 41, 0.85) -7.39%, rgba(24, 44, 77, 0) 169.05%);
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.firstscreen__bred,
+.firstscreen__bred a{
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+
+}
+.firstscreen__title h1{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 82px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #FFFFFF;
+}
+.firstscreen .container{
+    position: relative;
+    z-index: 2;
+}
+.bred__space{
+    padding: 0 12px;
+}
+.firstscreen .firstscreen__title{
+   margin-top: 43px;
+}
+.firstscreen__big .firstscreen__title{
+    margin-top: 93px;
+ }
+.medicationCont__blockSuber{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.firstscreen__btn a {
+    padding: 18px 22px;
+    background: #F5D7BE;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 149.9%;
+    color: #182C4D;
+    
+}
+.firstscreen__btn {
+    margin-top: 35px;
+}
+
