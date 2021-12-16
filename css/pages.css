@@ -65,4 +65,45 @@
 .firstscreen__btn {
     margin-top: 35px;
 }
+.firstscreen__desc{
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+    padding-top: 30px;
+}
 
+.firstscreen__desc p:not(:last-child){
+    margin-bottom: 10px;
+    max-width: 890px;
+}
+.restarAbout__pic{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.restarAbout__rightPic{
+    height: 715px;
+}
+
+.restarAbout__txt{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 50px;
+}
+.restarAbout__txt p:not(:last-child){
+    margin-bottom: 10px;
+}
+.restarAbout{
+    padding-top: 78px;
+}
+.restarAbout__txtPic{
+    height: 625px;
+    margin-top: 70px;
+}
+
+
+/* restarMenu */
+
+.restarMenu{
+    margin-top: 50px;
+}
