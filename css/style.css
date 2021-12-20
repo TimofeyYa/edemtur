@@ -19,7 +19,14 @@ input[type="number"]::-webkit-inner-spin-button {
     padding: 0 20px;
     margin: 0 auto;
 }
-
+.main__btn{
+    height: 62px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 149.9%;
+    border:none;
+    cursor: pointer;
+}
 body{
     font-family: var(--font-cicle);
     
@@ -313,4 +320,8 @@ h2{
 .goCenter{
     transition-duration: 0.42s;
     transition-delay: 0.08s;
+}
+
+strong{
+    font-weight: bold;
 }

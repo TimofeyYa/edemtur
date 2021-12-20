@@ -1,0 +1,149 @@
+@import url(../root.css);
+
+.pool__perks{
+    background: #FAF0E6;
+}
+.pool__perksContent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 190px;
+
+    
+}
+.pool__perks .container{
+    min-height: 390px;
+}
+.pool__perksBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 92px;
+    text-align: center;
+}
+.pool__perksPic{
+    height: 104px;
+    width: 104px;
+    background: #F5D7BE;
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pool__perksPic svg{
+    transform: rotate(45deg);
+}
+
+.pool__perksBlock h4{
+    font-size: 21px;
+    line-height: 31px;
+    padding-top: 60px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+}
+
+.pool__rasporListItem{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.pool__raspor{
+    padding-top: 68px;
+}
+
+.pool__rasporTitle h2{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+}
+.pool__rasporList{
+    padding-top: 43px;
+}
+
+.pool__rasporList ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 132px;
+    grid-row-gap: 19px;
+    grid-column-gap: 39px;
+    max-width: 90%;
+}
+
+.pool__rasporTxt{
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.pool__rasporTxt p:not(:last-child){
+    margin-bottom: 14px;
+}
+
+.pool__pricesTitle h2{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #162D4E;
+}
+.pool__pricesTable{
+    display: flex;
+    flex-direction: column;
+    padding-top: 41px;
+    padding-bottom: 144px;
+}
+
+.pool__pricesline{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 7px 0;
+    border-bottom: 1px solid #F0E5DA;
+}
+.pool__priceslineBlock{
+    height: 41px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.pool__prices{
+    padding-top: 66px;
+}
+
+.pool__pricesTableHead{
+    background: #FAF0E6;
+
+}
+
+.pool__pricesTableHead p{
+    font-weight: 800;
+}
+
+.pool__pricesline .pool__priceslineBlock:nth-child(2){
+    border-left: 1px solid #F0E5DA;
+    border-right: 1px solid #F0E5DA;
+}
+.pool__pricesTableHead .pool__priceslineBlock:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.pool__faq{
+    background: #162D4E;
+    color:white;
+    padding-top: 77px;
+    padding-bottom: 420px;
+}
+
+
+

@@ -1,0 +1,79 @@
+@import url(../root.css);
+
+.pytandpriceCont__block{
+    background: #FAF0E6;
+    display: grid;
+    grid-template-columns: 592px 1fr;
+    grid-template-rows: 621px;
+}
+.pytandpriceCont__blockTitle h3{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+
+}
+
+.pytandpriceCont__blockTxt{
+    font-size: 16px;
+line-height: 24px;
+}
+.pytandpriceCont__blockList h4{
+    font-size: 16px;font-weight: bold;
+    line-height: 24px;
+    color: #2C3039;
+
+}
+.pytandpriceCont__blockList ul{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 12px;
+}
+
+.pytandpriceCont{
+    padding-top: 70px;
+}
+.pytandpriceCont__blockContent{
+    padding: 62px 47px;
+    position: relative;
+}
+.pytandpriceCont__blockTitle{
+    padding-bottom: 15px;
+}
+.pytandpriceCont__blockList{
+    padding-top: 28px;
+}
+
+.pytandpriceCont__blockBtn button{
+    background: #182C4D;
+    color:white;
+    width: 100%;
+}
+.pytandpriceCont__blockBtn {
+    max-width: 247px;
+    padding-top: 40px;
+}
+.pytandpriceCont__block:not(:last-child){
+    margin-bottom: 42px;
+}
+
+.pytandpriceCont{
+    padding-bottom: 158px;
+}
+
+.pytandpriceCont__blockBg{
+    position: absolute;
+    bottom: 40px;
+    right: 22px;
+    z-index: 0;
+}
+.pytandpriceCont__blockContentWrap {
+    position: relative;
+    z-index: 1;
+}

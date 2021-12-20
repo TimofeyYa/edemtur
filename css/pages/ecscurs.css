@@ -1,0 +1,154 @@
+@import url(../root.css);
+
+.ecscursTxt p{
+    font-size: 16px;
+    line-height: 24px;max-width: 68%;
+}
+.ecscursTxt {
+    padding-top: 70px;
+    
+}
+h2{
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+
+}
+.ecscursCont{
+    padding-top: 70px;
+}
+
+.ecscursCont__elemControl{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 18px;
+    grid-gap: 16px;
+}
+.ecscursCont__elemBlockPic{
+    width: 100%;
+    height: 238px;
+}
+
+.ecscursCont__elemBlocks{
+    padding-top: 22px;
+    display: flex;
+    
+}
+
+.ecscursCont__elemBlockTitle h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #242F37;
+}
+
+.ecscursCont__elemBlockCont {
+    padding: 32px 20px;
+    background: #FAF0E6;
+}
+.ecscursCont__elemBlockTxt{
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+.ecscursCont__elemBlockTxt p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.ecscursCont__elemBlockRead a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.ecscursCont__elemBlockWrap{
+    width: 382px;
+    position: relative;
+    transition: 0.4s;
+}
+.ecscursCont__elemBlockWrap:not(:last-child){
+    margin-right: 33px;
+}
+.ecscursCont__elemBlock{
+    width: 382px;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 1;
+    transition: 0.4s;
+}
+.ecscursCont__elemBlockHid{
+    top:50px;
+    opacity: 0;
+    background-color: red;
+}
+.ecscursCont__elemBlocks{
+    position: absolute;
+}
+.ecscursCont__elemBlocksWrap{
+    height:600px;
+    position: relative;
+}
+.ecscursCont .container{
+    overflow: hidden;
+}
+.ecscursCont__elem:not(:last-child){
+    margin-bottom: 25px;
+}
+
+
+.transport {
+    background: #FAF0E6;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.transport .container{
+    display: grid;
+    grid-template-columns: 1fr 416px;
+    grid-column-gap: 30px;
+}
+.transport__picCont{
+    width: 100%;
+    height: 500px;
+
+    transform: translate(0, -42px);
+}
+
+.transport__left{
+    padding-top: 80px;
+}
+.transport__left h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 59px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #162D4E;
+}
+
+.transport__txt{
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 90%;
+}
+
+.transport__listItem{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    font-size: 16px;
+line-height: 24px;
+}
+.transport__list ul{
+    display: flex;
+    flex-direction: column;padding-top: 50px;
+    grid-row-gap: 12px;
+    flex-wrap: wrap;
+    max-height: 200px;
+    max-width: 800px;
+    grid-column-gap: 40px;
+}

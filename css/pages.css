@@ -107,3 +107,76 @@
 .restarMenu{
     margin-top: 50px;
 }
+.faq__cont{
+    position: relative;
+}
+.faq__blockTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 0px;
+    padding-left: 15px;
+    cursor: pointer;
+    align-items: center;
+}
+.faq__blockTop h3{
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+}
+
+.faq__block{
+    border-bottom: 1px solid #807468;
+}
+.faq__block:not(:last-child){
+    margin-bottom: 20px;
+}
+.faq__blockDesc p{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    max-width: 90%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.faq__bg {
+    position: absolute;
+    bottom: -45px;
+    right: -30px;
+}
+.faq__blockDesc{
+    overflow: hidden;
+    height: 0;
+    transition-duration: 0.3s;
+}
+
+.weelSlider__track{
+    display: flex;
+    grid-gap: 54px;
+    position: absolute;
+    left: 50%;
+    top:0;
+    transform: translate(-50%, 0);
+    transition: 0.55s;
+}
+
+.weelSliderItem{
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:577px;
+    height: 687px;
+}
+.weelSlider__content{
+    position: relative;
+    height: 687px;
+}
+
+.weelSlider__pool .weelSlider__track{
+    top:-285px
+}
+
+.weelSlider__pool .weelSlider__content{
+
+    height: 545px;
+}

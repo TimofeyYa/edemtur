@@ -1,0 +1,26 @@
+@import url(../root.css);
+
+.pollrest__txtTop{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 75%;
+    margin-bottom: 53px;
+}
+
+.pollrest__txt{
+    padding-top: 70px;
+    padding-bottom: 73px
+}
+.pollrest__txtBottom strong{
+    padding-left: 76px;
+}
+
+.pollrest__txtBottom p{
+    font-size: 16px;
+line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.weelSlider__restpool{
+    margin-bottom: 152px;
+}
