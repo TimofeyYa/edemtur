@@ -1,0 +1,39 @@
+@import url(../root.css);
+
+.galCont__blockPic{
+    width: 100%;
+    height: 431px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galCont__cont{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+}
+.galCont{
+    padding-top: 70px;
+    padding-bottom: 140px;
+}
+.galCont__blockTxt h3{
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 28px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    
+    color: #3A4C59;
+}
+.galCont__blockTxt{
+    padding-top: 15px;
+}
+
+.galItemCont{
+    padding-top: 70px;
+    padding-bottom: 160px;
+}
+.galItemCont .medservice___picItem{
+    height: 674px;
+}

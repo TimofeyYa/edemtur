@@ -1,0 +1,24 @@
+@import url(../root.css);
+
+@import url(../root.css);
+
+.cyrbel__contentPic{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 50px;
+}
+
+.cyrbel__content p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.cyrbel__content {
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+.cyrbel__content p:not(:last-child){
+    padding-bottom: 72px;
+}
+.weelSlider__cyrbel{
+    padding-bottom: 150px;
+}

@@ -1,0 +1,62 @@
+@import url(../root.css);
+
+.reviewsCont__txt{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 95%;
+}
+.reviewsCont__title h3{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #162D4E;
+}
+.reviewsCont__dots {
+    padding-top: 15px;
+    display: flex;
+    grid-gap: 17px;
+    padding-bottom: 32px;
+}
+.reviewsCont{
+    padding-top: 70px;
+}
+
+.reviewsContrl__add{
+    font-weight: bold;
+    font-size: 18px;
+    color: #D69A69;
+    line-height: 189.9%;
+    position: relative;
+    cursor: pointer;
+}
+
+.reviewsContrl__add::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    border-bottom: 2px dotted #D69A69;
+    bottom: 2px;
+}
+
+.reviewsCont__block:not(:last-child){
+    margin-bottom: 95px;
+}
+.reviewsContrl{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.reviewsContrl .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.reviewsContrl button{
+    max-width: 300px;
+    width: 100%;
+    background: #162D4E;
+    color: #FFFFFF;
+    margin-top: 55px;
+}

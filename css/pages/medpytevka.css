@@ -1,0 +1,132 @@
+@import url(../root.css);
+
+.medTxtCont .container{
+    display: grid;
+    padding-top: 70px;
+    grid-template-columns: 1fr 488px;
+    grid-column-gap: 40px;
+}
+.medTxtCont__pic{
+    width: 100%;
+    height: 838px;
+}
+
+.medTxtCont__leftBlockPic{
+    height: 69px;
+    width: 69px;
+    background: #F5D7BE;
+    transform: rotate(-45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.medTxtCont__leftBlockPic svg{
+    transform: rotate(45deg);
+}
+.medTxtCont__left{
+    padding-top: 32px;
+}
+.medTxtCont__leftBlockTitle{
+    padding-top: 49px;
+}
+.medTxtCont__leftBlockTitle h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #162D4E;
+}
+.medTxtCont__leftBlockList ul{
+    padding-top: 26px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 23px;
+}
+.medTxtCont__leftBlockItem{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+.medTxtCont__leftBlockPicWrap{
+    padding-left: 3px;
+}
+
+.medTxtCont__leftBlock:not(:last-child){
+    margin-bottom: 100px
+}
+.medPrice{
+    background: #FAF0E6;
+    min-height: 650px;
+    margin-top: 105px;
+    margin-bottom: 95px;
+}
+.medPrice .container{
+    display: grid;
+    grid-template-columns: 488px 1fr;
+}
+.medPrice__pic{
+    position: relative;
+}
+.medPrice__picItem{
+    width: 100%;
+    height: 750px;
+    background-size: cover;
+    position: absolute;
+
+    transform: translate(0, -7%);
+}
+.medPrice__txt h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+
+    color: #162D4E;
+}
+.medPrice__txt{
+    padding: 105px 25px 45px 85px;
+}
+.medPrice__item{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    font-size: 18px;
+    line-height: 24px;
+}
+.medPrice__txt ul{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 20px;
+}
+.medPrice__desc{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 32px;
+    padding-bottom: 30px;
+}
+
+.medPrice__btn button{
+    background: #162D4E;
+    color: white;
+    width: 100%;
+}
+.medPrice__btn {
+    max-width: 384px;
+    padding-top: 5px
+}
+
+.medputevka__pricesTable .pool__pricesline{
+    grid-template-columns: 4fr 3fr 2fr
+}
+
+.fmed__formline__btn{
+    background: #F5D7BE;
+    max-width: 280px;
+    width: 100%;
+}
+
+.med__faq{
+    background: #FAF0E6;
+    padding: 100px 0;
+}

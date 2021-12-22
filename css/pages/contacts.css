@@ -1,0 +1,171 @@
+@import url(../root.css);
+
+.contactsControls .container{
+    display: flex;
+    grid-gap: 9px;
+}
+
+.contactsControls__item{
+    background: #FFF9F3;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    transition: background 0.3s;
+
+    letter-spacing: 0.015em;
+
+    color: #3D495A;
+    height: 50px;
+    padding: 0 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactsControls__item--select{
+    background: #F5D7BE;
+    font-weight: bold;
+    color: #162D4E;
+}
+
+.contactsControls{
+    padding-top: 70px;
+}
+
+.contactsTitle h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #162D4E;
+}
+
+.contactsTitle p{
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+}
+
+.slyProd{
+    padding-top: 75px;
+    padding-bottom: 135px;
+}
+.contactsWorkTime{
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    padding-top: 45px;
+}
+
+.contactsWorkTime__txt p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+.contactsWorkTime__txt{
+    display: flex;
+    align-items: center;
+}
+
+.contacts__blockLine{
+    display: grid;
+    grid-template-columns: 42px 1fr;
+}
+.contacts__blockLine:not(:last-child){
+    margin-bottom: 48px;
+}
+.contacts__blockLineTxt a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #162D4E;
+}
+.contacts__dataBlocks{
+    padding-top: 46px;
+    display: flex;
+    grid-gap: 88px;
+}
+.contacts__blockLineTxt p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px
+}
+
+.formline__contacts{
+    background: #FAF0E6;
+}
+
+.contacts__formline__btn{
+    background: #162D4E;
+    max-width: 280px;
+    width: 100%;
+    color:white;
+}
+
+.formline__contacts h2{
+    color: #162D4E;
+}
+.formline__contacts input{
+    color: black;
+    border-bottom: 1px solid #92AFD8;
+}
+.formline__form{
+    position: relative;
+    z-index: 2;
+}
+
+.administrator{
+    padding-top: 75px;
+}
+
+.administrator .faq__cont{
+    padding-top: 90px;
+    padding-bottom: 65px;
+}
+.contactsTeam__block{
+    height: 534px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+    overflow: hidden;
+}
+.contactsTeam__blockInfo{
+    background: #182C4D;
+    width: 100%;
+    padding: 0 22px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    color:white;
+    flex-direction: column;
+}
+
+.contactsTeam__blockInfo h4{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    padding-bottom: 18px;
+}
+.contactsTeam__content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 37px;
+    grid-row-gap: 30px;
+    padding-top: 74px;
+}
+.contactsTeam__blockPic{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.contactsTeam{
+    padding-bottom: 150px;
+}
+
+.formline__contacts{
+    padding-bottom: 160px;
+}

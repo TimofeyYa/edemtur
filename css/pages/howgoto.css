@@ -1,0 +1,45 @@
+@import url(../root.css);
+
+.gotoInfo{
+    padding-top: 70px;
+}
+
+.gotoInfo__blockPicBlock{
+    height: 67px;
+    width: 67px;
+    transform: rotate(-45deg);
+    display: flex;
+    flex-direction: column;
+    background: #F5D7BE;
+    align-items: center;
+    justify-content: center;
+}
+.gotoInfo__blockPicBlock svg{
+    transform: rotate(45deg);
+}
+
+.gotoInfo__block{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+}
+.gotoInfo__blockTxt h3{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 37px;
+}
+.gotoInfo__container{
+    padding-top: 95px;
+}
+.gotoInfo__blockTxt p:not(:last-child){
+    padding-bottom: 25px;
+}
+.gotoInfo__block:not(:last-child){
+    padding-bottom: 60px;
+}
+.howgotoMap{
+    margin-top: 100px;
+    height: 640px;
+    margin-bottom: 15px;
+}

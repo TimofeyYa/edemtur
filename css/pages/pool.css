@@ -110,11 +110,13 @@
     border-bottom: 1px solid #F0E5DA;
 }
 .pool__priceslineBlock{
-    height: 41px;
+    min-height: 41px;
     display: flex;
     justify-content: flex-start;
-    padding: 0 30px;
+    padding: 10px 30px;
     align-items: center;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .pool__prices{

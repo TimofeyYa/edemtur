@@ -180,3 +180,139 @@
 
     height: 545px;
 }
+
+.formline{
+    background:var(--color-blue);
+    padding-top: 95px;
+    padding-bottom: 97px;
+}
+.formline__form form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.formline__form,
+.formline__form input{
+    color: white;
+}
+.formline h2{
+    font-size: 48px;
+    line-height: 71px;
+    color: var(--color-accent);
+}
+.formline__form{
+    padding-top: 50px;
+}
+.formline__form label p{
+    margin-bottom: 25px;
+}
+.formline__form input{
+    height: 65px;
+}
+.formline .container{
+    position: relative;
+}
+
+.formline__bg{
+    position: absolute;
+    bottom: -50px;
+}
+.formline__bg1{
+    left: -180px;
+}
+.formline__bg2{
+    right: -130px;
+}
+
+.nice__sliderControl {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 15px;
+}
+
+.nice__sliderblockPic{
+    height: 387px;
+    width: 100%;
+}
+.nice__sliderblockWrap{
+    width: 592px;
+    position: relative;
+    
+    transition: 0.55s;
+
+    opacity: 0.3;
+}
+.nice__sliderblockWrap--select{
+    opacity: 1;
+}
+.nice__sliderblockWrap:not(:last-child){
+    margin-right: 32px;
+}
+.nice__sliderblock{
+    width: 592px;
+    position: absolute;
+    background: #FAF0E6;
+    border-radius: 0px 0px 8px 8px;
+    transition: 0.3s;
+    transition-delay: 0.105s;
+    transform: translate(0,0);
+}
+
+.nice__sliderTrackWrap{
+    height: 720px;
+    padding-top: 30px;
+}
+.nice__sliderblockContent{
+    padding: 35px;
+}
+.nice__sliderblockContent h4{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    color: #242F37;
+}
+.nice__sliderblockContent p{
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nice__sliderMoreLink{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 189.9%;
+    color: #162D4E;
+    position: relative;
+}
+
+.nice__sliderMoreLink::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    bottom: 3px;
+    border-bottom: 2px dotted black;
+}
+.nice__sliderTrack{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.nice__sliderTrackWrap{
+    position: relative;
+}
+
+.niceBlock--hidden{
+    width: 0px;
+    margin-right: 0 !important;
+    transition-delay: 0.08s;
+}
+
+.niceBlock--hidden .nice__sliderblock{
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition-delay: 0s;
+}
