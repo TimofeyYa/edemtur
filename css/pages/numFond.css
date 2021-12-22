@@ -1,0 +1,56 @@
+@import url(../root.css);
+
+.number__sliderItem{
+    border-radius: 0px 0px 16px 16px;
+    border: 1px solid #B0BDD6;
+    overflow: hidden;
+}
+
+.numfondCont__lineTitle h2{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: 0.015em;
+    font-feature-settings: 'swsh' on;
+    padding-bottom: 15px;
+    color: #162D4E;
+}
+.numfondCont__lineControl{
+    padding-top: 20px;
+}
+.numfondCont__lineTitle p{
+    font-size: 14px;
+}
+.numfondCont__lineControlItem{
+    background: #FFF9F3;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #3D495A;
+    height: 50px;
+    padding: 2px 27px;
+    display: flex;
+    align-items: center;
+    transition: background 0.3s;
+}
+
+.numfondCont__lineControl{
+    display: flex;
+    grid-gap: 10px;
+}
+
+.numfondCont{
+    padding-top: 70px;
+    padding-bottom: 195px;
+}
+.numfondCont__lineControlItem--select{
+    background: #F5D7BE;
+    color: #162D4E;
+    font-weight: 800;
+}
+
+.numfondCont__line:not(:last-child){
+    padding-bottom: 57px;
+    margin-bottom: 64px;
+    border-bottom: 2px solid #162D4E;
+}

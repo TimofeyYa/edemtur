@@ -27,3 +27,6 @@
 .restCont{
     padding-bottom: 171px;
 }
+.restCont__block{
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+@import url(../root.css);
+
+.numInfo__top h5{
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+.numInfo__top{
+    display: flex;
+    grid-gap: 80px;
+}
+
+.numInfo{
+    padding-top: 70px;
+}
+
+.numInfo__bottom{
+    padding-top: 70px;
+}
+
+.numInfo__bottomColumn h3{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.numInfo__bottomColumn{
+    padding-top: 25px;
+}
+
+.numInfo__bottomList li{
+    display: grid;
+    grid-template-columns: 32px 1fr;
+}
+
+.numInfo__bottomList ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 18px;
+}
+
+.numInfo__bottomContent{
+    display: flex;
+    grid-column-gap: 104px;
+}
+.numInfoCont{
+    padding-top: 35px;
+    position: relative;
+}
+.numInfoCont__bg{
+    position: absolute;
+    background-color: #FAF0E6;
+    width: 100%;
+    top: 300px;
+    height: 100%;
+    z-index: -1;
+}
+.numInfoCont .medservice___picItem{
+    height: 674px;
+}
+
+.formline__contacts{
+    background: #FAF0E6;
+    padding-top: 110px;
+    padding-bottom: 165px;
+}
+
+.contacts__formline__btn{
+    background: #162D4E;
+    max-width: 280px;
+    width: 100%;
+    color:white;
+}
+
+.formline__contacts h2{
+    color: #162D4E;
+}
+.formline__contacts input{
+    color: black;
+    border-bottom: 1px solid #92AFD8;
+}
+.formline__form{
+    position: relative;
+    z-index: 2;
+}
+
+.formline__contacts label p{
+    color: #162D4E;
+
+}

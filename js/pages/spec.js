@@ -7,6 +7,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     specCont__sector.forEach(item=>{
         let elem = document.createElement('div');
         elem.classList.add('specCont__controlItem');
+        elem.classList.add('lightBtn');
 
         elem.innerHTML = `<p>${item.dataset.name}</p>`;
         specCont__control.append(elem);
