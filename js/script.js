@@ -57,5 +57,5 @@ window.addEventListener('DOMContentLoaded', ()=>{
     })
 
 
-
+    console.log(navigator.userAgent.includes('Firefox'));
 })

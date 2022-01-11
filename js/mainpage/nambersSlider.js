@@ -20,25 +20,26 @@ window.addEventListener("DOMContentLoaded",()=>{
         number__sliderTrack.style.transform = `translate(${scroll * znak}px, 0px)`;
     }
     selectSlide(-1);
-
-    number__sliderTrack.addEventListener('click', (e)=>{
-        console.log(e.path);
-        if (!e.path.includes(carrentEl)){
-        if (e.clientX > window.innerWidth / 2){
-            if (!(index >= number__sliderSec.length -1)){
-                carrentSelect(1)
-                scroll = scroll + slideItemWidth + 40;
-                selectSlide(-1);
+    
+    number__sliderSec.forEach(item=>{
+        item.addEventListener('click', (e)=>{
+                if (!item.classList[1]){
+                    if (e.clientX > window.innerWidth / 2){
+                        if (!(index >= number__sliderSec.length -1)){
+                            carrentSelect(1)
+                            scroll = scroll + slideItemWidth + 40;
+                            selectSlide(-1);
+                        }
+                    } else {
+                        if(!(index <= 0)){
+                            carrentSelect(-1);
+                            scroll = scroll - (slideItemWidth + 40);
+                            selectSlide(-1);
+                        }
+                    }
             }
-        } else {
-            if(!(index <= 0)){
-                carrentSelect(-1);
-                scroll = scroll - (slideItemWidth + 40);
-                selectSlide(-1);
-            }
-        }
-    }
-     
+           
+        })
     })
 
     function carrentSelect(znak){

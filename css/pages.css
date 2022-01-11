@@ -125,7 +125,10 @@
     letter-spacing: 0.015em;
     font-feature-settings: 'swsh' on;
 }
-
+.faq__blockTopPic svg{
+    transform: rotate(0);
+    transition: 0.4s;
+}
 .faq__block{
     border-bottom: 1px solid #807468;
 }

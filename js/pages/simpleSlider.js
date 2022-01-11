@@ -18,6 +18,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
             items[i].style.display = 'block';
         }
 
+        if(items.length == 0){
+            arrLeft.style.display = 'none';
+            arrRight.style.display = 'none';
+        }
         arrRight.addEventListener('click', ()=>{
             index++;
             items[index].style.display = 'block';

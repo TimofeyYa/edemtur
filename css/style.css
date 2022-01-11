@@ -11,8 +11,11 @@ input[type=date]::-webkit-calendar-picker-indicator {
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none; 
+    -moz-appearance: none; 
 }
-
+input[type=number] {
+    -moz-appearance:textfield;
+}
 
 .container{
     max-width: 1256px;
@@ -393,4 +396,71 @@ strong{
 .formline__form {
     position: relative;
     z-index: 2;
+}
+
+.popupWrap{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.33);
+    z-index: 100;
+}
+
+.popupContent__wrap{
+    background: #182C4D;
+    padding: 65px 170px 120px 100px;
+    position: relative;
+}
+
+.popup__formContent h3{
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: 0.015em;
+    color: #F5D7BE;
+}
+
+.popup__formContent form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    grid-gap: 35px;
+    color: white
+}
+.popup__formContent{
+    padding-top: 35px;
+}
+.popup__formContent button{
+    width: 100%;
+    max-width: 384px;
+    background: #F5D7BE;
+}
+.popup__formContent input{
+    color: white;
+}
+.popupContent{
+    position: relative;
+}
+.popupContent__bg{
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
+    left: 300px;
+}
+
+.popup__formContent{
+    position: relative;
+    z-index: 1;
+}
+
+.popup__exitBtnPic svg{
+    cursor: pointer;
+}
+.footer__zavod{
+    padding-top: 30px;
 }

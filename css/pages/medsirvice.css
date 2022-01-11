@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: none;
+    border-radius: 8px;
 }
 .medservice___picItem img{
     opacity: 0;
