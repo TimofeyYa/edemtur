@@ -1,0 +1,583 @@
+@media screen and (max-width: 1550px){
+    .number__sliderSec{
+        width: 1050px;
+    }
+    .number__sliderItem{
+        width: 575px;
+    }
+    .number__info {
+        padding: 0 55px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .number__slider{
+        display: none;
+    }
+    .number__sliderItem{
+        width: 592px;
+    }
+    .searchnum__form form{
+        flex-wrap: wrap;
+        grid-column-gap: 15px;
+        grid-row-gap: 20px;
+    }
+    .searchnum__form input{
+        height: 50px;
+        width: 250px;
+    }
+    .searchnum__form label p{
+        margin-bottom: 5px;
+    }
+    .searchnum{
+        padding: 50px;
+    }
+    .number__secondSlider{
+  
+        display: block;
+    }
+}
+@media screen and (max-width: 1250px){
+    .typepyt__content{
+        height: 701px;
+
+    }
+    .firstscreen__logo svg{
+        height: 250px;
+    }
+    .firstscreen__logo::after{
+        height: 345px;
+        width: 345px;
+    }
+    .firstscreen__form{
+        margin-top: 180px;
+    }
+    .firstscreen{
+        height: 900px;
+    }
+    .firstscreen__form form{
+        flex-wrap: wrap;
+        
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        justify-content: flex-start;
+    }
+    .firstscreen__form{
+        height: min-content;
+        padding: 30px 90px;
+    }
+    .firstscreen__btn{
+        max-width: unset;
+    }
+    .firstscreen__formWrap{
+        padding: 0 30px;
+    }
+    .pytevki__picItem{
+        height: 400px;
+    }
+    .lechenie{
+        padding: 140px 0;
+    }
+    .rest__content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .rest__contentBlock:nth-child(3n){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+@media screen and (max-width: 1000px){
+    .pytevki__picItem{
+        height: 350px;
+    }
+    .searchnum h2{
+        font-size: 40px;
+        line-height: 1.3em;
+    }
+    .lechenie{
+        padding: 110px 0;
+    }
+    .lechenie__btn{
+        margin-top: 80px;
+    }
+    .restaran{
+        padding: 100px 0;
+    }
+}
+@media screen and (max-width: 900px){
+    .searchnum__form form{
+       justify-content: space-around;
+        
+    }
+    .typepyt__content{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .typepyt__infoWrap{
+        width: 100%;
+        padding: 0;
+    }
+    .typepyt__info{
+        max-width: unset;
+        padding:0 20px ;
+    }
+    .typepyt__pic{
+        max-width: none;
+        height: 300px;
+    }
+    .pytevki__picItem{
+        height: 330px;
+    }
+    .typepyt__content{
+        height: min-content;
+        padding-bottom: 30px;
+    }
+    .typepyt__controls{
+        padding-top: 10px;
+    }
+    .firstscreen__logo::after{
+        height: 305px;
+        width: 305px;
+    }
+    .firstscreen__logo svg{
+        height: 220px;
+    }
+    .firstscreen{
+        height: 700px;
+    }
+    .firstscreen .container{
+        padding-top: 270px;
+    }
+    .pytevki__content p{
+        font-size: 16px;
+    }
+    .number__sliderItem{
+        width: 552px;
+    }
+    .number__secondSliderContent .number__sliderItemWrap{
+        width: 575px;
+    }
+    .number__infoDesc{
+        grid-column-gap: 20px;
+        grid-row-gap: 15px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .number__sliderPic{
+        height: 310px;
+    }
+
+    .number__infoItem{
+        max-width: 100px;
+        text-align: center;
+    }
+    .number__infoDesc{
+        align-items: flex-start;
+    }
+    .typepyt{
+        padding: 100px 0;
+    }
+    .restaran__txt{
+        padding-top: 15px;
+        line-height: 1.4em;
+        font-size: 15px;
+    }
+    .restaran___picItem{
+        height: 400px;
+    }
+    .firstscreen__form{
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width: 780px){
+    .searchnum h2{
+        font-size: 35px;
+    }
+    .number__secondSliderContent{
+        height: 590px;
+    }
+    .pytevki__picItem{
+        height: 290px;
+    }
+    .pytevki__content{
+        padding-top: 25px;
+    }
+    .number__sliderItem{
+        width: 482px;
+        height: 700px;
+    }
+    .number__secondSliderContent .number__sliderItemWrap{
+        width: 525px;
+    }
+    .number__sliderPic{
+        height: 260px;
+    }
+    .number__sliderTitle h3{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .number__infoDesc{
+        margin: 24px 0;
+    }
+    .searchnum__form{
+        padding-top: 30px;
+    }
+    .lechenie__btn{
+        margin-top: 60px;
+    }
+    .restaran{
+        padding: 80px 0;
+    }
+    .restaran___picItem{
+        height: 370px;
+    }
+    .rest{
+        padding: 80px 0;
+    }
+    .rest__txt{
+        font-size: 15px;
+        line-height: 1.4em;
+        margin-top: 15px;
+    }
+    .typepyt__all{
+        padding-top: 15px;
+    }
+    .typepyt__all a{
+        font-size: 17px;
+    }
+    .rest__content{
+        padding-top: 20px;
+    }
+    .pytevki{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 630px){
+    .pytevki{
+        padding-top: 350px;
+    }
+    .searchnum h2{
+        font-size: 32px;
+    }
+    .searchnum__form input{
+        width: 100%;
+    }
+    .searchnum__form label{
+        width: 100%;
+    }
+    .number__sliderItem{
+        width: 422px;
+        height: 610px;
+    }
+    .number__secondSliderContent .number__sliderItemWrap{
+        width: 445px;
+    }
+    .number__info{
+        padding: 0 35px;
+        
+    }
+    .number__infoDesc{
+        justify-content: flex-start;
+        grid-column-gap: 30px;
+    }
+    .pytevki__picContentWrap{
+        position: relative;
+        height: 315px;
+    }
+    .pytevki__picItem{
+        height: 310px;
+    }
+    .pytevki__picContent{
+        position: absolute;
+        width: 900px;
+    }
+    .number__infoItem{
+        flex-direction: row;
+        align-items: center;
+        grid-column-gap: 20px;
+        max-width: 160px;
+        text-align: left;
+        font-size: 14px;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .number__btn{
+        margin-top: 10px;
+    }
+    .number__sliderTitle h3{
+        font-size: 23px;
+        margin-top: 15px;
+    }
+    .number__secondSliderContent{
+        height: 480px;
+    }
+    .typepyt{
+        padding-top: 60px;
+    }
+    .lechenie{
+        padding: 70px 0;
+    }
+    .lechenie__content p{
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    .typepyt{
+        padding: 60px 0;
+    }
+    .typepyt__txt{
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    .restaran{
+        padding: 60px 0;
+    }
+    .typepyt__all{
+        padding-top: 20px;
+    }
+    .rest__content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .rest__contentBlock:nth-child(3n){
+        grid-column-start: unset;
+        grid-column-end: unset;
+    }
+   
+    
+}
+@media screen and (max-width: 550px){
+    .firstscreen__form{
+        margin-top: 125px;
+    }
+    .firstscreen__form label{
+        width: 100%;
+    }
+    .pytevki__picContentWrap{
+        height: 270px;
+    }
+    .pytevki__picContent{
+        width: 700px;
+    }
+    .pytevki__picItem{
+        height: 270px;
+    }
+    .firstscreen__form input{
+        width: 100%;
+    }
+    .firstscreen__form{
+        padding: 25px;
+    }
+    .firstscreen__form label p{
+        font-size: 14px;
+    }
+    .main__input{
+        font-size: 15px;
+        height: 35px;
+    }
+    .main__btn{
+        height: 50px;
+    }
+    .firstscreen__logo::after{
+        height: 255px;
+        width: 255px;
+    }
+    .firstscreen__logo svg{
+        height: 190px;
+    }
+    .firstscreen{
+        height: 600px;
+    }
+    .firstscreen .container{
+        padding-top: 230px;
+    }
+    .pytevki__content p{
+        font-size: 14px;
+    }
+    .pytevki__content{
+        padding-top: 21px;
+    }
+    .dots__lineItem{
+        width: 7px;
+        height: 7px;
+    }
+    .pytevki__pic {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .searchnum{
+        padding: 37px;
+    }
+    .lechenie__btn{
+        margin-top: 40px;
+    }
+    .restaran__controls{
+        padding-bottom: 10px;
+    }
+    .rest__txt{
+        font-size: 14px;
+    }
+    .pytevki{
+        padding-top: 390px;
+    }
+}
+@media screen and (max-width: 500px){
+    .rest__contentPic{
+        height: 380px;
+    }
+    .searchnum h2{
+        font-size: 25px;
+    }
+    .number__sliderItem{
+        width: 382px;
+        height: 550px;
+    }
+    .number__secondSliderContent .number__sliderItemWrap{
+        width: 395px;
+    }
+    .number__info{
+        padding: 0 28px;
+        
+    }
+    .number__infoItem{
+        max-width: 140px;
+        font-size: 13px;
+    }
+    .number__sliderTitle h3{
+        font-size: 21px;
+        line-height: 1.2em;
+        margin-top: 10px;
+    }
+    .number__sliderPic{
+        height: 230px;
+    }
+    .number__secondSliderContent{
+        height: 440px;
+    }
+    .typepyt__add{
+        max-width: unset;
+    }
+    .lechenie__content p{
+        font-size: 14px;
+
+    }
+    .typepyt__txt{
+        font-size: 14px;
+        margin-top: 15px;
+
+    }
+    .restaran__txt{
+        font-size: 14px;
+    }
+    .typepyt__all{
+        padding-top: 14px;
+    }
+    .typepyt__all a{
+        font-size: 16px;
+    }
+    .restaran___picItem{
+        height: 350px;
+    }
+    .restaran__control svg{
+        height: 19px;
+    }
+    .typepyt__control svg{
+        height: 19px;
+    }
+    .typepyt__control:not(:last-child){
+        margin-right: 15px;
+    }
+    .rest{
+        padding: 60px 0;
+    }
+    .typepyt__all{
+        padding-top: 10px;
+    }
+    .typepyt__all a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 420px){
+    .rest__contentPic{
+        height: 350px;
+    }
+    .pytevki__content{
+        padding-top: 10px;
+    }
+    .firstscreen__logo::after{
+        height: 245px;
+        width: 245px;
+    }
+    .firstscreen__logo svg{
+        height: 190px;
+    }
+    .firstscreen{
+        height: 550px;
+    }
+    .firstscreen .container{
+        padding-top: 160px;
+    }
+    .number__sliderItem{
+        width: 332px;
+        height: 480px;
+    }
+    .number__secondSliderContent .number__sliderItemWrap{
+        width: 355px;
+    }
+    .number__infoItem{
+        max-width: 120px;
+        font-size: 11px;
+        grid-column-gap: 10px;
+    }
+    .number__infoDesc{
+        margin: 10px 0;
+    }
+    .number__sliderPic{
+        height: 190px;
+    }
+    .number__secondSliderContent{
+        height: 400px;
+    }
+    .searchnum__form{
+        padding-top: 20px;
+    }
+    .restaran___picItem{
+        height: 320px;
+    }
+    .footer__nav, .footer__contacts, .footer__logo {
+        width: 80%;
+        max-width: unset;
+      }
+}
+@media screen and (max-width: 360px){
+    .firstscreen__logo::after {
+        height: 215px;
+        width: 215px;
+      }
+      .firstscreen__logo svg {
+        height: 180px;
+      }
+      .firstscreen__form{
+          margin-top: 100px;
+      }
+      .pytevki{
+          padding-top: 350px;
+      }
+    .number__sliderItem{
+        width: 285px;
+        height: 480px;
+    }
+    .number__info{
+        padding: 0 16px;
+    }
+    .number__infoItem{
+        max-width: 110px;
+        grid-column-gap: 7px;
+    }
+    .number__secondSliderContent{
+        height: 380px;
+    }
+    .lechenie__btn{
+        max-width: unset;
+    }
+    .restaran___picItem{
+        height: 300px;
+    }
+}

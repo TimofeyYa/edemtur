@@ -1,0 +1,264 @@
+@media screen and (max-width: 1000px){
+    .restarAbout__content{
+        grid-template-columns: 1fr 390px;
+    }
+    .restarMenu__block{
+        height: 420px;
+    }
+    .restarMenu__content{
+        grid-column-gap: 20px;
+    }
+    .restarMenu__blockName h3{
+        font-size: 19px;
+        line-height: 1.2em;
+    }
+    .restarMenu__blockName p{
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    .restarMenu__blockName{
+        height: 110px;
+    }
+    .restarDay h2{
+        font-size: 65px;
+    }
+    .restarDay__blockTxt{
+        padding-top: 30px;
+    }
+    .interier p{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .restarAbout__rightPic{
+        height: 600px;
+    }
+    .restarAbout__txtPic{
+        height: 500px;
+    }
+    .restarAbout__content{
+        grid-template-columns: 1fr 350px;
+        grid-column-gap: 20px;
+    }
+    .restarAbout__txt{
+        font-size: 15px;
+        line-height: 1.3em;
+    }
+    .restarMenu{
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+    .restarMenu__block{
+        height: 350px;
+    }
+    .restarDay__blockTxt{
+        padding-top: 15px;
+    }
+    .interier .container{
+        padding-top: 200px;
+        padding-bottom:190px;
+    }
+    .interier p{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 800px){
+    .restarMenu__content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .restarMenu__block:nth-child(3n){
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .restarMenu__title h3{
+        font-size: 24px;
+        line-height: 1.4em;
+        padding-top: 10px;
+    }
+    .restarMenu__title{
+        max-width: 90%;
+    }
+    .restarMenu__title p{
+        font-size: 15px;
+        line-height: 1.3em;
+        padding-top: 10px;
+    }
+    .restarDay h2{
+        font-size: 55px;
+    }
+    .restarDay__blockDots svg{
+        height: 10px;
+        width: 10px;
+    }
+    .restarDay__blockDots{
+        grid-column-gap: 10px;
+        padding-top: 8px;
+        padding-bottom: 20px;
+    }
+    .restarDay__blockTxt p{
+        font-size: 15px;
+        line-height: 1.3em;
+    }
+    .restarDay__block:not(:last-child) {
+        margin-bottom: 40px;
+      }
+      .restarDay__slider{
+          padding-top: 30px;
+      }
+}
+@media screen and (max-width: 750px){
+    .restarAbout__rightPic{
+        height: 440px;
+    }
+    .restarAbout__txtPic{
+        height: 320px;
+        margin-top: 30px;
+    }
+    .restarAbout__content{
+        grid-template-columns: 1fr 300px;
+        grid-column-gap: 20px;
+    }
+    .restarAbout__txt{
+        padding-top: 20px;
+    }
+    .restarMenu{
+        padding-top: 10px;
+    }
+    .restarDay__blockTxt h3{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .interier p{
+        font-size: 17px;
+    }
+    .interier h2{
+        font-size: 38px;
+        line-height: 1.4em;
+    }
+    .interier .container {
+        padding-top: 150px;
+        padding-bottom: 120px;
+      }
+}
+@media screen and (max-width: 650px){
+    .restarAbout__right{
+        display: none;
+    }
+    .restarAbout__content{
+        grid-template-columns: 1fr ;
+        grid-column-gap: 20px;
+    }
+    .restarAbout{
+        padding-top: 40px;
+    }
+    .restarAbout__txt{
+        padding-top: 0px;
+    }
+    .restarMenu__title h3{
+        font-size: 21px;
+
+    }
+    .restarDay h2{
+        font-size: 48px;
+    }
+    .restarDay__blockDots svg{
+        height: 8px;
+        width: 8px;
+    }
+    .restarDay__blockDots{
+        grid-column-gap: 8px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 550px){
+    .restarMenu__content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .restarMenu__block:nth-child(3n){
+        grid-column-start: unset;
+        grid-column-end: unset;
+    }
+    .restarDay h2{
+        font-size: 45px;
+    }
+    .restarDay__blockTxt h3{
+        font-size: 22px;
+        font-weight: 800;
+    }
+}
+@media screen and (max-width: 500px){
+    .restarAbout__txt{
+        font-size: 14px;
+    }
+    .restarAbout__txtPic{
+        height: 290px;
+    }
+    .restarMenu__title p{
+        font-size: 14px;
+    }
+    .restarMenu__title h3{
+        font-size: 19px;
+    }
+    .restarMenu__title{
+        max-width: 95%;
+    }
+    .restarDay h2{
+        font-size: 35px;
+    }
+    .restarDay__blockTxt p{
+        font-size: 14px;
+    
+    }
+    .restarDay__block:not(:last-child) {
+        margin-bottom: 25px;
+      }
+      .interier p{
+        font-size: 15px;
+        max-width: 85%;
+        line-height: 1.4em;
+    }
+    .interier h2{
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .interier .container {
+        padding-top: 120px;
+        padding-bottom: 110px;
+      }
+}
+@media screen and (max-width: 400px){
+    .restarAbout__txtPic{
+        height: 246px;
+    }
+    .restarMenu__title h3{
+        font-size: 19px;
+    }
+    .restarDay h2{
+        font-size: 24px;
+    }
+    .restarDay__blockTxt h3{
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .restarDay__blockTxt{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .interier p{
+        font-size: 14px;
+        max-width: 90%;
+
+    }
+    .interier h2{
+        font-size: 17px;
+        line-height: 1.3em;
+    }
+    .interier .container {
+        padding-top: 120px;
+        padding-bottom: 110px;
+      }
+}

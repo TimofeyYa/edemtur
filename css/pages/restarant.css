@@ -31,6 +31,7 @@
     grid-template-columns: repeat(3,1fr);
     padding-top: 41px;
     grid-column-gap: 25px;
+    grid-row-gap: 20px;
     padding-bottom: 136px;
 }
 .restarMenu__block{

@@ -1,0 +1,333 @@
+@media screen and (max-width: 1250px){
+    .header__navItem:not(:last-child) {
+        margin-right: 80px;
+    }
+    .header__contacts{
+        max-width: 365px;
+    }
+    .header__navItem:not(:last-child){
+        margin-right: 65px;
+    }
+
+    .mainMenu__list a{
+        font-size: 18px;
+    }
+    .mainMenu__list ul{
+        grid-column-gap: 50px;
+        grid-row-gap: 30px;
+    }
+    .mainMenu__block h3{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .mainMenu__content{
+        grid-column-gap: 45px;
+    }
+   
+    .mainMenu__list a{
+        font-size: 16px;
+    }
+
+    .mainMenu__block h3{
+        font-size: 24px;
+    }
+    .mainMenu__list ul{
+        grid-column-gap: 45px;
+        grid-row-gap: 15px;
+        max-height: 220px;
+    }
+   .pytevki{
+       padding-top: 220px;
+   }
+   h2{
+       font-size: 29px;
+   }
+}
+@media screen and (max-width: 1050px){
+    h2{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .mainMenu__list a{
+        font-size: 15px;
+    }
+    .header__soc{
+        max-width: 140px;
+    }
+    .header__navItem{
+        font-size: 17px;
+    }
+    .header__navItem:not(:last-child) {
+        margin-right: 70px;
+    }
+    .header__contacts{
+        max-width: 345px;
+    }
+    .header__navItem:not(:last-child){
+        margin-right: 50px;
+    }
+    .mainMenu__list {
+        padding-top: 5px;
+    }
+    .mainMenu__pic svg{
+        height: 60px;
+    }
+    .mainMenu__pic{
+        height: 80px;
+    }
+    .mainMenu__bottom{
+        grid-row-gap: 20px;
+    }
+    .mainMenu__bottom{
+        padding-bottom: 20px;
+    }
+    .pytevki{
+        padding-top: 310px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .header__navItem{
+        font-size: 15px;
+    }
+    .mainMenu__content {
+        padding-top: 10vh;
+        grid-row-gap: 20px;
+    }
+    .mainMenu__list ul{
+        max-height: 160px;
+    }
+    .mainMenu__pic{
+        height: 80px;
+    }
+    .mainMenu__list ul{
+        grid-column-gap: 45px;
+        grid-row-gap: 2px;
+    }
+    .header__navMenuBtn svg{
+        height: 18px;
+        width: 18px;
+    }
+    .header__phone a{
+        font-size: 16px;
+    }
+    .header__soc{
+        max-width: 130px;
+    }
+    .header__contacts{
+        max-width: 325px;
+    }
+
+
+    .mainMenu__content{
+        flex-wrap: wrap;
+    }
+    .mainMenu__block{
+        width: 45%;
+    }
+
+    .mainMenu__block:nth-child(3n){
+        width: 90%;
+    }
+  
+}
+
+@media screen and (max-width: 860px){
+    h2{
+        font-size: 23px;
+
+    }
+    .header__soc{
+        display: none;
+    }
+    .header__contacts{
+        max-width: max-content;
+    }
+    .header{
+        padding-top: 23px;
+    }
+}
+@media screen and (max-width: 720px){
+    .pytevki{
+        padding-top: 410px;
+    }
+    h2{
+        font-size: 21px;
+
+    }
+}
+@media screen and (max-width: 700px){
+    .header{
+        padding-top: 16px;
+    }
+    .header__navItem{
+        font-size: 14px;
+    }
+    .header__navMenuBtn svg{
+        height: 15px;
+        width: 15px;
+    }
+    .header__phone a{
+        font-size: 15px;
+    }
+    .header__navItem:not(:last-child) {
+        margin-right: 45px;
+    }
+    .header__navItem:not(:last-child){
+        margin-right: 40px;
+    }
+
+    .mainMenu__contentMob{
+        display: flex;
+    }
+    .mainMenu__contentDesctop{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    h2{
+        font-size: 19px;
+
+    }
+    .header__navItem:not(:last-child) {
+        margin-right: 35px;
+    }
+    .header__navItem:not(:last-child){
+        margin-right: 30px;
+    }
+    .mainMenu__bottomLogo svg{
+        height: 40px;
+    }
+    .footer__nav {
+        width: 45%;
+    }
+    .footer__top{
+
+        grid-column-gap: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .header__navItemEvent{
+        display: none;
+    }
+    .mainMenu__contentMob__menuItem h3{
+        font-size: 23px;
+    }
+    .mainMenu__contentMob__menuItem{
+        max-width: 430px;
+    }
+    .mainMenu__contentMobLinks{
+        display: flex;
+    }
+    .mainMenu__contentMob__menuContentItem .mainMenu__listItem a{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .mainMenu__contentMob{
+        padding-top: 50px;
+    }
+    .mainMenu__bottomLogo svg{
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .mainMenu__bottomLogo svg{
+        height: 30px;
+    }
+    .mainMenu__contentMobLinks a{
+        font-size: 22px;
+    }
+    .mainMenu__contentMob__menuItem h3{
+        font-size: 19px;
+    }
+    .mainMenu__contentMob__menuItem{
+        max-width: 360px;
+    }
+    .mainMenu__contentMob__menuItemPic svg {
+        height: 37px;
+    }
+    .mainMenu__contentMob__menuItemLeft{
+        grid-column-gap: 25px;
+    }
+
+    .mainMenu__contentMob__menuContentItem .mainMenu__listItem a{
+        font-size: 22px;
+    }
+    .mainMenu__bottomElem address, .mainMenu__bottomElem a{
+        font-size: 13px;
+        line-height: 1.2em;
+    }
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__nav, .footer__contacts, .footer__logo {
+        width: 70%;
+        max-width: unset;
+    }
+    .footer__bottomWrap{
+        padding-top: 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer__bottomWrap p, .footer__bottomWrap a{
+        font-size: 13px;
+    }
+    .footer__zavod{
+        text-align: center;
+    }
+    .footer{
+        padding: 40px 0;
+    }
+
+@media screen and (max-width: 400px){
+    h2{
+        font-size: 17px;
+
+    }
+    .mainMenu__contentMob__menuItem h3{
+        font-size: 17px;
+    }
+    .mainMenu__contentMob__menuItemPic svg {
+        height: 30px;
+    }
+    .mainMenu__contentMob__menuItemLeft{
+        grid-column-gap: 23px;
+    }
+    .mainMenu__contentMob__menuItemPic{
+        width: 40px;
+    }
+    .mainMenu__contentMob__menuItemLeft{
+        grid-column-gap: 20px;
+    }
+    .mainMenu__contentMob__menuNav{
+        grid-row-gap: 15px;
+    }
+    .mainMenu__contentMob__menuItem{
+        max-width: 320px;
+    }
+    .mainMenu__contentMob__menuContentItem .mainMenu__listItem a{
+        font-size: 19px;
+        line-height: 1.64em;
+    }
+    .mainMenu__contentMob__menuContent{
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 350px){
+    .mainMenu__contentMob__menuItem h3{
+        font-size: 14px;
+    }
+    .mainMenu__contentMob__menuItem{
+        max-width: 260px;
+    }
+    .mainMenu__contentMobLinks a{
+        font-size: 20px;
+    }
+}

@@ -22,6 +22,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 
             })
             mainMenu.style.height = '100%';
+            mainMenu.classList.remove('closeMainMenu');
             header.classList.remove('header__mini');
         } else {
             goCenter.forEach((item, index)=>{
@@ -29,6 +30,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 item.setAttribute('cy', positionDots[index]['cy']);
             })
             mainMenu.style.height = '0%';
+            mainMenu.classList.add('closeMainMenu');
             if (window.scrollY > 50){
     
                     header.classList.add('header__mini');
@@ -57,5 +59,37 @@ window.addEventListener('DOMContentLoaded', ()=>{
     })
 
 
-    console.log(navigator.userAgent.includes('Firefox'));
+
+
+    const mainMenu__contentMob__menuItemLeft = document.querySelectorAll('.mainMenu__contentMob__menuItemLeft'),
+          mainMenu__contentMob__wrapItemSelector = document.querySelector('.mainMenu__contentMob__wrapItemSelector'),
+          mainMenu__contentMob__menuContentItem = document.querySelectorAll('.mainMenu__contentMob__menuContentItem'),
+          mainMenu__contentMob__wrapBackBtn = document.querySelector('.mainMenu__contentMob__wrapBackBtn p');
+
+    mainMenu__contentMob__menuItemLeft.forEach(item=>{
+        item.addEventListener('click', ()=>{
+            item.parentElement.classList.add('mainMenu__contentMob__menuItem--select');
+            mainMenu__contentMob__wrapItemSelector.style.width = '0%';
+            mainMenu__contentMob__menuContentItem.forEach(elem =>{
+                    if (elem.dataset.selector == item.querySelector('h3').textContent){
+                        elem.style.display = 'block';
+                    }
+            })
+        })
+    })
+
+    mainMenu__contentMob__wrapBackBtn.addEventListener('click', ()=>{
+        mainMenu__contentMob__wrapItemSelector.style.width = '100%';
+        mainMenu__contentMob__menuContentItem.forEach(elem =>{
+            setTimeout(()=>{
+                elem.style.display = 'none';
+            }, 500)
+        mainMenu__contentMob__menuItemLeft.forEach(item=>{
+            setTimeout(()=>{
+                item.parentElement.classList.remove('mainMenu__contentMob__menuItem--select');
+            }, 300)
+        })
+            
+    })
+    })
 })

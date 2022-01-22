@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px){
+    .specCont__controlItem{
+        font-size: 15px;
+    }
+    .specCont__controlItem{
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 800px){
+    .specCont__sectorDesc {
+        font-size: 15px;
+        line-height: 1.3em;
+      }
+      .specCont__sectorBlock {
+        grid-template-columns: 344px 1fr;
+        grid-column-gap: 22px;
+      }
+      .specCont__sectorName h3{
+          font-size: 22px;
+          line-height: 1.4em;
+      }
+      .specCont__sectorDots{
+          padding-bottom: 10px;
+      }
+      .specCont__sectorName{
+          padding-bottom: 10px;
+      }
+      .specCont__control{
+          flex-direction: column;
+      }
+}
+@media screen and (max-width: 720px){
+    .specCont__sectorBlock {
+        grid-template-columns: 290px 1fr;
+        grid-column-gap: 22px;
+      }
+      .specCont__sectorDesc {
+        font-size: 14px;
+        line-height: 1.25em;
+      }
+      .specCont__sectorName h3{
+        font-size: 20px;
+        line-height: 1.4em;
+    }
+}
+@media screen and (max-width: 650px){
+    .specCont__sectorBlock{
+        grid-template-columns: 1fr;
+    }
+    .specCont__sectorName h3{
+        padding-top: 20px;
+    }
+    .specCont__control{
+        text-align: center;
+    }
+    .specCont__controlItem{
+        justify-content: center;
+    }
+}
