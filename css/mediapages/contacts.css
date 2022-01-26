@@ -1,0 +1,141 @@
+@media screen and (max-width: 1200px){
+    .contacts__dataBlocks{
+        flex-wrap: wrap;
+        grid-column-gap: 78px;
+        grid-row-gap: 50px;
+    }
+    .slyProd{
+        padding-bottom: 90px;
+    }
+    .contactsTeam__block{
+        height: 480px;
+    }
+    .contactsTeam__content{
+        grid-column-gap: 30px;
+        grid-row-gap: 27px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .contactsTeam__block{
+        height: 440px;
+    }
+    .contactsTeam__content{
+        grid-column-gap: 20px;
+        grid-row-gap: 22px;
+    }
+    .contactsTeam__blockInfo{
+        height: 150px;
+    }
+    .contactsTeam__blockInfo h4{
+        padding-bottom: 10px;
+        font-size: 19px;
+        line-height: 1.2em;
+    }
+    
+}
+@media screen and (max-width: 1000px){
+    .contactsControls__item{
+        padding: 0 30px;
+    }
+    .contactsControls{
+        padding-top: 50px;
+    }
+    .contactsTeam{
+        padding-bottom: 120px;
+    }
+}
+@media screen and (max-width: 900px){
+    .contactsTeam__content{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .contactsTeam__block{
+        height: 470px;
+    }
+}
+@media screen and (max-width: 800px){
+    .contactsControls{
+        padding-top: 40px;
+    }
+    .slyProd{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .contactsControls__item{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contactsTitle h3{
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+    .contactsTitle p{
+        font-size: 15px;
+    }
+    .contactsWorkTime{
+        padding-top: 30px;
+    }
+    .contacts__dataBlocks{
+        padding-top: 35px;
+    }
+    .contacts__blockLineTxt p{
+        padding-top: 10px;
+    }
+    .contacts__blockLine:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .contactsTeam__block{
+        height: 440px;
+    }
+    .contactsTeam{
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 650px){
+    .contactsControls .container{
+        flex-wrap: wrap;
+    }
+    .contactsControls__item{
+        width: 100%;
+    }
+    .contactsTitle h3{
+        font-size: 20px;
+    }
+    .contactsTeam__block{
+        height: 420px;
+    }
+    .contactsTeam{
+        padding-bottom: 90px;
+    }
+}
+@media screen and (max-width: 550px){
+    .contactsTeam__content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contactsTeam__block{
+        height: 470px;
+    }
+}
+@media screen and (max-width: 500px){
+    .contactsControls__item{
+        font-size: 14px;
+  
+    }
+    .contactsTitle h3{
+        font-size: 18px;
+    }
+    .contactsTitle p{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    .contacts__blockLineTxt a, .contactsWorkTime__txt p{
+        font-size: 16px;
+    }
+    .contacts__blockLine:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 360px){
+    .contactsTitle h3{
+        font-size: 16px;
+    }
+}

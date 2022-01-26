@@ -1,0 +1,97 @@
+@media screen and (max-width: 1150px){
+    .numInfo__bottomContent{
+        grid-column-gap: 90px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .numInfo__bottomContent{
+        grid-column-gap: 40px;
+    }
+    .numInfoCont .medservice___picItem{
+        height: 620px;
+    }
+}
+@media screen and (max-width: 950px){
+    .numInfo__bottomContent{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .numInfo__bottomListTxt{
+        font-size: 15px;
+    }
+    .numInfo__bottomList ul{
+        grid-gap: 12px;
+    }
+    .numInfo__top h5{
+        font-size: 19px;
+    }
+    .numInfo__top{
+        flex-wrap: wrap;
+        grid-column-gap: 60px;
+        grid-row-gap: 10px;
+    }
+    .numInfo__bottom {
+        padding-top: 30px;
+    }
+    .numInfo {
+        padding-top: 50px;
+    }
+    .numInfoCont .medservice___picItem{
+        height: 580px;
+    }
+}
+@media screen and (max-width: 700px){
+    .numInfoCont .medservice___picItem{
+        height: 540px;
+    }
+    .numInfoCont__bg{
+        top: 200px;
+    }
+}
+@media screen and (max-width: 600px){
+    .numInfoCont .medservice___picItem{
+        height: 460px;
+    }
+}
+@media screen and (max-width: 500px){
+    .numInfo__bottomListTxt{
+        font-size: 14px;
+    }
+    .numInfo__bottomList ul{
+        grid-gap: 10px;
+    }
+    .numInfo {
+        padding-top: 50px;
+    }
+    .numInfo {
+        padding-top: 40px;
+    }
+    .numInfoCont .medservice___picItem{
+        height: 420px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .numInfoCont .medservice___picItem{
+        height: 380px;
+    }
+    .numInfoCont__bg{
+        top: 150px;
+    }
+    .formline h2 {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 400px){
+    .numInfoCont .medservice___picItem{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 350px){
+    .numInfoCont .medservice___picItem{
+        height: 280px;
+    }
+}

@@ -1,0 +1,81 @@
+@media screen and (max-width: 1300px){
+    .pytandpriceCont__blockContent{
+        padding: 30px 30px;
+    }
+    .pytandpriceCont__block{
+        grid-template-columns: 490px 1fr;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .pytandpriceCont__blockContent{
+        padding: 20px 30px;
+    }
+    .pytandpriceCont__block{
+        grid-template-columns: 450px 1fr;
+    }
+    .pytandpriceCont__blockList{
+        padding-top: 20px;
+    }
+    .pytandpriceCont__blockBtn{
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .pytandpriceCont__block {
+        grid-template-columns: 1fr;
+      }
+      
+}
+@media screen and (max-width: 900px){
+    .pytandpriceCont__block{
+        grid-template-rows: 521px;
+    }
+    .pytandpriceCont {
+        padding-bottom: 108px;
+        padding-top: 50px;
+      }
+}
+@media screen and (max-width: 800px){
+    .pytandpriceCont__block{
+        grid-template-rows: 421px;
+    }
+    .pytandpriceCont__blockTitle h3{
+        font-size: 18px;
+    }
+    .pytandpriceCont__blockTxt{
+        font-size: 15px;
+    }
+    .pytandpriceCont__blockContent{
+        padding: 15px 20px;
+    }
+    .pytandpriceCont__blockBtn .main__btn{
+        height: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .pytandpriceCont__block{
+        grid-template-rows: 351px;
+    }
+}
+@media screen and (max-width: 500px){
+    .pytandpriceCont__blockTitle h3{
+        font-size: 16px;
+    }
+    .pytandpriceCont__blockTxt{
+        font-size: 14px;
+    }
+    .pytandpriceCont__block{
+        grid-template-rows: 301px;
+    }
+    .pytandpriceCont {
+        padding-bottom: 70px;
+        padding-top: 40px;
+      }
+}
+@media screen and (max-width: 400px){
+    .pytandpriceCont__block{
+        grid-template-rows: 251px;
+    }
+}

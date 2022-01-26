@@ -1,3 +1,21 @@
+@media screen and (max-width: 1550px){
+    .weelSliderItem{
+        width: 507px;
+        height: 627px;
+    }
+    .weelSlider__track{
+        grid-gap: 35px;
+    }
+    
+}
+@media screen and (max-width: 1150px){
+    .formline__form form{
+        flex-wrap: wrap;
+        grid-column-gap: 20px;
+        grid-row-gap: 25px;
+        justify-content: flex-start;
+    }
+}
 @media screen and (max-width: 1100px){
     .firstscreen__title h1{
         font-size: 63px;
@@ -19,6 +37,53 @@
     .firstscreen__restarant{
         padding-top: 120px;
     }
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 350px;
+    }
+    .ecscursCont__elemBlockWrap:not(:last-child) {
+        margin-right: 29px;
+      }
+}
+@media screen and (max-width: 950px){
+    .formline__form .main__btn{
+        width: 100%;
+        max-width: unset;
+    }
+    .formline__form label p{
+        margin-bottom: 10px;
+    }
+    .formline__form input{
+        height: 50px;
+    }
+}
+@media screen and (max-width: 900px){
+    .weelSliderItem{
+        width: 360px;
+        height: 497px;
+    }
+    .weelSlider__track{
+        grid-gap: 20px;
+    }
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 330px;
+    }
+    .ecscursCont__elemBlockWrap:not(:last-child) {
+        margin-right: 25px;
+    }
+
+    .ecscursCont__elemBlockPic{
+        height: 210px;
+    }
+    .ecscursCont__elemBlockCont{
+        padding: 20px 20px;
+    }
+    .ecscursCont__elemBlockTxt {
+        padding-top: 15px;
+        padding-bottom: 25px;
+      }
+    .ecscursCont__elemBlocksWrap{
+        height: 550px;
+    }
 }
 @media screen and (max-width: 800px){
     .firstscreen__title h1{
@@ -38,6 +103,46 @@
     .firstscreen__restarant{
         padding-top: 100px;
     }
+    .faq__blockTop h3{
+        font-size: 22px;
+        line-height: 1.3em;
+    }
+    .faq__blockDesc p{
+        font-size: 15px;
+    }
+    .faq__blockTop {
+        padding: 20px 0px;
+        padding-left: 15px;
+    }
+    .pool__faq {
+        padding-top: 50px;
+        padding-bottom: 400px;
+      }
+      .weelSlider__track{
+        transform: translate(0);
+        left: 20px;
+    }
+    .ecscursCont__elemBlockTitle h3{
+        font-size: 19px;
+    }
+
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 310px;
+    }
+    .ecscursCont__elemBlockTxt p{
+        font-size: 15px;
+        line-height: 1.4em;
+    }
+    .ecscursCont__elemBlockTxt {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .formline h2{
+        font-size: 43px;
+    }
+    .formline{
+        padding: 50px 0;
+    }
 }
 @media screen and (max-width: 700px){
     .firstscreen__title h1{
@@ -51,6 +156,60 @@
     }
     .firstscreen__bred, .firstscreen__bred a{
         font-size: 14px;
+    }
+    .weelSliderItem{
+        width: 350px;
+        height: 477px;
+    }
+    .formline h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 290px;
+    }
+    .ecscursCont__elemBlockWrap:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .ecscursCont__elemBlockPic{
+        height: 200px;
+    }
+    .ecscursCont__elemBlockCont{
+        padding: 10px 15px;
+    }
+    .ecscursCont__elemBlockTxt {
+        padding-top: 10px;
+        padding-bottom: 15px;
+      }
+    .ecscursCont__elemBlocksWrap{
+        height: 500px;
+    }
+    .formline__form input{
+        height: 40px;
+        width: 100%;
+        max-width: unset;
+        font-size: 15px;
+    }
+    .formline__form label{
+        width: 100%;
+    }
+    .formline__form{
+        padding-top: 20px;
+    }
+    .formline h2{
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .firstscreen__bred{
+        display: none;
+    }
+    .firstscreen .firstscreen__title{
+        margin-top: 10px;
+    }
+    .firstscreen__btn a{
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 500px){
@@ -75,6 +234,70 @@
     .firstscreen__restarant{
         padding-top: 80px;
     }
+    .faq__blockTop h3{
+        font-size: 18px;
+    }
+    .faq__blockDesc p{
+        font-size: 14px;
+    }
+    .faq__blockTop {
+        padding: 15px 0px;
+        padding-left: 15px;
+    }
+    .faq__bg{
+        display: none;
+    }
+    .pool__faq {
+        padding-top: 40px;
+        padding-bottom: 370px;
+      }
+      .weelSliderItem{
+        width: 320px;
+        height: 427px;
+    }
+    .firstscreen__btn a{
+        font-size: 15px;
+        display: block;
+        text-align: center;
+    }
+    .firstscreen__btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .firstscreen__btn a {
+        padding: 8px 12px;
+    }
+}
+@media screen and (max-width: 450px){
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 270px;
+    }
+    .ecscursCont__elemBlockWrap:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .ecscursCont__elemBlockPic{
+        height: 174px;
+    }
+    .ecscursCont__elemBlockCont{
+        padding: 10px 15px;
+    }
+    .ecscursCont__elemBlockTxt {
+        padding-top: 8px;
+        padding-bottom: 13px;
+      }
+    .ecscursCont__elemBlocksWrap{
+        height: 475px;
+    }
+    .ecscursCont__elemBlockTxt p{
+        font-size: 14px;
+    }
+    .ecscursCont__elemBlockTitle h3{
+        font-size: 17px;
+    }
+    .medservice__control svg{
+        height: 17px;
+    }
 }
 @media screen and (max-width: 420px){
     .firstscreen__title h1{
@@ -84,10 +307,31 @@
     .firstscreen__bred, .firstscreen__bred a{
         font-size: 12px;
     }
+    .weelSliderItem{
+        width: 245px;
+        height: 328px;
+    }
+    .faq__blockTop h3{
+        font-size: 16px;
+    }
+    
 }
 @media screen and (max-width: 360px){
     .firstscreen__title h1{
         font-size: 24px;
     
+    }
+    .faq__blockTop h3{
+        font-size: 14px;
+    }
+    .faq__blockDesc p{
+        font-size: 13px;
+    }
+    .ecscursCont__elemBlock, .ecscursCont__elemBlockWrap{
+        width: 248px;
+    }
+    .firstscreen__btn{
+
+        margin-top: 20px;
     }
 }

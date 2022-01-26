@@ -3,9 +3,15 @@
 window.addEventListener('DOMContentLoaded', ()=>{
     const elemBlocks = document.querySelectorAll('.ecscursCont__elemBlocks');
     const colums = 3;
-    const margin = "33px";
-    const width = "382px";
+    let margin = '33px';
+    if (window.innerWidth <= 1100) margin = '29px';
+    if (window.innerWidth <= 900) margin = '25px';
+    if (window.innerWidth <= 600) margin = '20px';
+    if (window.innerWidth <= 450) margin = '10px';
 
+
+    let width = elemBlocks[0].querySelector('.ecscursCont__elemBlockWrap').clientWidth + 'px';
+    console.dir(elemBlocks[0].querySelector('.ecscursCont__elemBlockWrap').style);
     elemBlocks.forEach((item)=>{
         const leftControl = item.parentElement.parentElement.querySelector('.ecscursCont__elemControlItemLeft'),
               rightControl = item.parentElement.parentElement.querySelector('.ecscursCont__elemControlItemRight');

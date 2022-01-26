@@ -147,5 +147,9 @@
     padding-bottom: 420px;
 }
 
-
-
+.pool__pricesTableWrap::-webkit-scrollbar {
+    width: 0;
+  }
+  .pool__pricesTableWrap::-moz-scrollbar {
+    width: 0;
+  }

@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px){
+    .weelSlider__content{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 800px){
+    .pollrest__txt{
+        padding: 40px 0;
+    }
+    .pollrest__txtTop{
+        margin-bottom: 30px;
+    }
+    .pollrest__txtBottom p{
+        font-size: 15px;
+    }
+    .pollrest__txtTop{
+        font-size: 15px;
+    }
+    .weelSlider__content{
+        height: 480px;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .pollrest__txtBottom strong{
+        display: block;
+        padding-left: 0;
+        padding-top: 5px;
+    }
+    .weelSlider__content{
+        height: 340px;
+    }
+}
+@media screen and (max-width: 500px){
+    .pollrest__txtBottom p{
+        font-size: 14px;
+    }
+    .pollrest__txtTop{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 360px){
+    .weelSlider__content{
+        height: 260px;
+    }
+}

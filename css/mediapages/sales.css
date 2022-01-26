@@ -1,0 +1,102 @@
+@media screen and (max-width: 1300px){
+    .nice__sliderblock,.nice__sliderblockWrap{
+        width: 500px;
+    }
+    .nice__sliderSales {
+        padding-top: 56px;
+        padding-bottom: 80px;
+      }
+}
+@media screen and (max-width: 1150px){
+    .nice__sliderblock,.nice__sliderblockWrap{
+        width: 420px;
+    }
+    .nice__sliderblockPic{
+        height:270px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .nice__sliderblock,.nice__sliderblockWrap{
+        width: 370px;
+    }
+    .nice__sliderblockWrap:not(:last-child) {
+        margin-right: 22px;
+      }
+    .nice__sliderblockPic{
+        height:250px;
+    }
+    .nice__sliderblockContent{
+        padding: 30px;
+    }
+    .nice__sliderblockContent h4{
+        font-size: 18px;
+        line-height: 1.3em;
+    }
+    .nice__sliderblockContent p{
+        padding: 10px 0;
+    }
+    .nice__sliderTrackWrap{
+        padding-top: 20x;
+    }
+    .nice__sliderTrackWrap{
+        height: 600px;
+    }
+}
+@media screen and (max-width: 800px){
+    .nice__sliderblock,.nice__sliderblockWrap{
+        width: 310px;
+    }
+    .nice__sliderblockWrap:not(:last-child) {
+        margin-right: 15px;
+    }
+    .nice__sliderblockContent{
+        padding: 22px;
+    }
+    .nice__sliderblockContent h4{
+        font-size: 17px;
+        line-height: 1.3em;
+    }
+    .nice__sliderblockContent p{
+        font-size: 15px;
+        line-height: 1.3em;
+    }
+    .nice__sliderblockPic{
+        height:220px;
+    }
+    .nice__sliderSales {
+        padding-top: 46px;
+        padding-bottom: 60px;
+      }
+      
+}
+@media screen and (max-width: 700px){
+    .nice__sliderTrack{
+        left: 20px;
+        transform: translate(0%,0);
+    }
+    .nice__sliderTrackWrap{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 360px){
+    .nice__sliderblock,.nice__sliderblockWrap{
+        width: 260px;
+    }
+    .nice__sliderblockPic{
+        height:180px;
+    }
+    .nice__sliderblockContent h4{
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    .nice__sliderblockContent p{
+        font-size: 14px;
+        line-height: 1.3em;
+    }
+    .nice__sliderblockContent{
+        padding: 15px;
+    }
+    .nice__sliderTrackWrap{
+        height: 520px;
+    }
+}

@@ -37,6 +37,7 @@
 .numfondCont__lineControl{
     display: flex;
     grid-gap: 10px;
+    flex-wrap: wrap;
 }
 
 .numfondCont{
@@ -53,4 +54,10 @@
     padding-bottom: 57px;
     margin-bottom: 64px;
     border-bottom: 2px solid #162D4E;
+}
+.numfondCont__lineControlArr{
+    padding-top: 25px;
+    justify-content: flex-end;
+    grid-column-gap: 15px;
+    display: none;
 }

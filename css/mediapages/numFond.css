@@ -1,0 +1,201 @@
+@media screen and (max-width: 1500px){
+    .number__sliderSec{
+        width: 1000px;
+    }
+    .number__info{
+        padding: 0 55px;
+    }
+    .number__infoDesc{
+        justify-content: center;
+        flex-wrap: wrap;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        align-items: flex-start;
+        margin: 20px 0;
+        
+    }
+    .number__infoItem{
+        width: 100px;
+        text-align: center;
+    }
+    .number__sliderTitle h3{
+        margin-top: 25px;
+    }
+    .number__sliderPic{
+        height: 320px;
+    }
+    
+}
+@media screen and (max-width: 1200px){
+    .number__sliderSec{
+        width: 900px;
+        grid-column-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .numfondCont__lineControlArr{
+        padding-top: 15px;
+    }
+    .number__sliderSec .number__sliderItem {
+        transform: scale3d(1,1,1);
+        opacity: 1;
+        width: 400px;
+        margin-right: 20px;
+    }
+    .number__sliderSec{
+        width: min-content;
+        grid-gap: unset;
+        margin-right: 0px
+    }
+    .number__slider{
+        position: relative;
+        height: 750px;
+    }
+    .number__sliderTrack{
+        position: absolute;
+        left: 20px;
+        width: max-content;
+    }
+    .numfondCont__lineControlArr{
+        display: flex;
+    }
+    .number__slider{
+        margin-top: 25px;
+    }
+    .number__sliderPic{
+        height: 250px;
+    }
+    .number__sliderItem{
+        height: 700px;
+    }
+
+    .numfondCont {
+        padding-top: 60px;
+        padding-bottom: 105px;
+      }
+}
+
+@media screen and (max-width: 800px){
+    .number__sliderTitle h3{
+        font-size: 25px;
+        line-height: 1.2em;
+    }
+    .number__btn{
+        margin-top: 10px;
+        height: 45px;
+    }
+    .number__sliderPic{
+        height: 230px;
+    }
+    .number__sliderItem{
+        height: 620px;
+       
+    }
+    .number__slider{
+        height: 650px;
+    }
+    .number__sliderSec .number__sliderItem{
+        width: 350px;
+    }
+    .numfondCont {
+        padding-top: 50px;
+        padding-bottom: 75px;
+      }
+      .numfondCont__line:not(:last-child) {
+        padding-bottom: 47px;
+        margin-bottom: 54px;
+      }
+}
+@media screen and (max-width: 550px){
+    .number__sliderSec .number__sliderItem{
+        width: 300px;
+    }
+    .number__info{
+        padding: 0 30px;
+    }
+    .number__sliderTitle h3{
+        margin-top: 15px;
+    }
+    .number__sliderPic{
+        height: 160px;
+    }
+    .number__sliderTitle h3 {
+        font-size: 21px;
+    }
+    .number__sliderItem{
+        height: 500px;
+    }
+    .number__infoDesc{
+        margin: 10px 0;
+    }
+    .number__slider{
+        height: 530px;
+    }
+    .numfondCont__lineControlItem{
+        font-size: 14px;
+    }
+    .numfondCont__lineControlItem{
+        height: min-content;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .numfondCont {
+        padding-top: 40px;
+        padding-bottom: 65px;
+      }
+      .numfondCont__line:not(:last-child) {
+        padding-bottom: 37px;
+        margin-bottom: 44px;
+      }
+}
+@media screen and (max-width: 450px){
+    .numfondCont__lineControlItem{
+        width: 100%;
+    }
+    .numfondCont__lineControlArr{
+        padding-top: 25px;
+    }
+    .number__slider{
+        margin-top: 10px;
+    }
+    .number__infoDesc{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 15px;
+    }
+    .number__infoItem{
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .number__infoPic{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .number__infoTxt{
+        font-size: 12px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .number__info{
+        padding: 0 20px;
+    }
+    .number__infoItem{
+        width: unset;
+    }
+    .number__sliderItem{
+        height: 450px;
+    }
+    .number__slider{
+        height: 460px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .number__sliderSec .number__sliderItem {
+        width: 282px;
+      }
+}

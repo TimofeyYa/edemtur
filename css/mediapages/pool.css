@@ -1,0 +1,183 @@
+
+
+@media screen and (max-width: 1100px){
+    .pool__perksPic{
+        height: 95px;
+        width: 95px;
+    }
+    .pool__perksPic svg{
+        height: 50px;
+    }
+    .pool__perksBlock h4{
+        font-size: 19px;
+        line-height: 1.4em;
+        padding-top: 40px;
+    }
+    .pool__perksContent{
+        grid-gap: 150px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .pool__perksPic{
+        height: 90px;
+        width: 90px;
+    }
+    .pool__perksPic svg{
+        height: 48px;
+    }
+    .pool__perksBlock h4{
+        font-size: 19px;
+        padding-top: 35px;
+    }
+    .pool__perksContent{
+        display: flex;
+        justify-content: space-around;
+        grid-gap: 20px;
+        align-items: flex-start;
+    }
+    .pool__perksBlock{
+        width: 300px;
+        
+    }
+    .pool__perks .container{
+        min-height: 350px;
+    }
+
+    .pool__raspor{
+        padding-top: 40px;
+    }
+    .pool__priceslineBlock{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 950px){
+    .pool__pricesTableWrap{
+        width: calc(100vw);
+        transform: translate(-20px,0);
+        padding:0 20px;
+        overflow-x: scroll;
+        cursor: grab;
+    }
+    .pool__pricesTable{
+        width: 1100px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .pool__perksPic{
+        height: 80px;
+        width: 80px;
+    }
+    .pool__perksPic svg{
+        height: 45px;
+    }
+    .pool__perksBlock h4{
+        font-size: 18px;
+        padding-top: 30px;
+    }
+    .pool__perks .container{
+        min-height: 330px;
+    }
+    .pool__rasporListName{
+        font-size: 15px;
+    }
+    .pool__rasporList{
+        padding-top: 20px;
+    }
+    .pool__rasporList ul{
+        grid-row-gap: 15px;
+    }
+    .pool__rasporTxt{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .pool__rasporTxt p:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .pool__rasporTitle h2, .pool__pricesTitle h2{
+        font-size: 22px;
+    }
+    .pool__priceslineBlock{
+        font-size: 14px;
+    }
+    .pool__pricesTable{
+        width: 900px;
+    }
+    .pool__priceslineBlock{
+        min-height: 31px;
+        padding: 5px 20px;
+    }
+    .pool__pricesTable{
+        padding-bottom: 90px;
+        padding-top: 20px;
+    }
+    .pool__pricesTable{
+        width: 850px;
+    }
+    .weelSlider__pool .weelSlider__content{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 650px){
+    .pool__perksPic{
+        height: 70px;
+        width: 70px;
+    }
+    .pool__perksPic svg{
+        height: 41px;
+    }
+    .pool__perksBlock h4{
+        font-size: 17px;
+        padding-top: 25px;
+    }
+    .pool__perks .container{
+        min-height: 280px;
+        padding-bottom: 40px;
+    }
+    .pool__perksBlock{
+        padding-top: 71px;
+    }
+    .weelSlider__pool .weelSlider__content{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 500px){
+    .pool__rasporTxt{
+        font-size: 14px;
+    }
+    .pool__prices{
+        padding-top: 40px;
+    }
+    .pool__rasporTitle h2, .pool__pricesTitle h2{
+        font-size: 17px;
+        line-height: 1.4em;
+    }
+    .weelSlider__pool .weelSlider__content{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 480px){
+    .pool__perksContent{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pool__perksBlock{
+        padding-top: 40px;
+    }
+    .pool__pricesTable{
+        padding-bottom: 60px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .weelSlider__pool .weelSlider__content{
+        height: 120px;
+    }
+}
+@media screen and (max-width: 400px){
+    .pool__perksBlock{
+        width: 230px;
+    }
+}

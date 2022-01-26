@@ -16,7 +16,11 @@
     color: #162D4E;
 
 }
-
+.pytandpriceCont__blockPic{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .pytandpriceCont__blockTxt{
     font-size: 16px;
 line-height: 24px;

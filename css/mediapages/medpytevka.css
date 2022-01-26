@@ -1,0 +1,194 @@
+@media screen and (max-width: 1200px){
+    .medPrice__txt{
+        padding: 65px 25px 35px 65px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .medTxtCont .container{
+        grid-template-columns: 1fr 408px;
+    }
+    .medTxtCont__leftBlockItem{
+        font-size: 15px;
+    }
+    .medTxtCont__leftBlockList ul{
+        grid-gap: 15px;
+    }
+    .medTxtCont__leftBlock:not(:last-child){
+        margin-bottom: 70px;
+    }
+    .medTxtCont__leftBlockTitle{
+        padding-top: 40px;
+    }
+    .medTxtCont__pic{
+        height: 770px;
+    }
+    .medPrice__txt ul{
+        padding-top: 25px;
+    }
+    .medPrice__desc{
+        padding-top: 20px;
+    }
+    .medPrice__txt h3{
+        font-size: 22px;
+        line-height: 1.15em;
+    }
+    .medPrice__txt{
+        padding: 60px 20px 35px 55px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .medTxtCont .container{
+        grid-template-columns: 1fr 368px;
+    }
+    .medTxtCont__pic{
+        height: 730px;
+    }
+    .medTxtCont__leftBlockList ul{
+        padding-top: 15px;
+    }
+    .medTxtCont__leftBlock:not(:last-child){
+        margin-bottom: 50px;
+    }
+    .medTxtCont__leftBlockTitle{
+        padding-top: 30px;
+    }
+    .medPrice .container {
+        grid-template-columns: 428px 1fr;
+    }
+    .med__faq{
+        padding:70px 0 ;
+    }
+}
+@media screen and (max-width: 850px){
+    .medTxtCont .container{
+        grid-template-columns: 1fr 348px;
+    }
+    .medPrice__txt{
+        padding: 50px 20px 35px 35px;
+    }
+    .medPrice__desc{
+        font-size: 15px;
+        line-height: 1.3em;
+    }
+    .medPrice__txt h3{
+        font-size: 20px;
+
+    }
+    .medPrice__item{
+        font-size: 16px;
+    }
+    .medPrice__picItem{
+        height: 650px;
+    }
+    .medPrice{
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .medTxtCont .container{
+        grid-template-columns: 1fr;
+    }
+    .medTxtCont__pic{
+        display: none;
+    }
+    .medTxtCont__left{
+        padding-bottom: 50px;
+    }
+    .medTxtCont .container{
+        padding-top: 10px;
+    }
+    .medTxtCont__leftBlockPic svg{
+        height: 35px;
+    }
+    .medTxtCont__leftBlockPic{
+        height: 60px;
+        width: 60px;
+    }
+    .medTxtCont__leftBlockTitle h3{
+        font-size: 21px;
+    }
+    .medPrice__txt h3{
+        font-size: 18px;
+
+    }
+    .medPrice__txt ul{
+        padding-top: 15px;
+    }
+    .medPrice .container {
+        grid-template-columns: 370px 1fr;
+    }
+    .medPrice{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 720px){
+    .medPrice .container {
+        grid-template-columns: 1fr;
+    }
+    .medPrice__picItem{
+        position: static;
+    }
+    .medPrice__picItem{
+        height: 550px;
+    }
+    .medPrice__txt{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 40px;
+    }
+    .pool__pricesTable{
+        width: 800px;
+    }
+    .medPrice{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .medPrice__picItem{
+        height: 490px;
+    }
+}
+@media screen and (max-width: 500px){
+    .medTxtCont__leftBlockItem{
+        font-size: 14px;
+    }
+    .medTxtCont__leftBlockTitle h3{
+        font-size: 17px;
+    }
+    .medTxtCont__leftBlockPic svg{
+        height: 25px;
+    }
+    .medTxtCont__leftBlockPic{
+        height: 50px;
+        width: 50px;
+    }
+    .medTxtCont__leftBlockTitle{
+        padding-top: 20px;
+    }
+    .medPrice__desc{
+        font-size: 14px;
+    }
+    .medPrice{
+        margin-top: 40px;
+    }
+    .med__faq{
+        padding:50px 0 ;
+        padding-top: 30px;
+    }
+    .medPrice{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 420px){
+    .medPrice__picItem{
+        height: 450px;
+    }
+}
+@media screen and (max-width: 360px){
+    .medPrice__picItem{
+        height: 400px;
+    }
+}

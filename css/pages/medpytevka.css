@@ -9,6 +9,9 @@
 .medTxtCont__pic{
     width: 100%;
     height: 838px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .medTxtCont__leftBlockPic{
