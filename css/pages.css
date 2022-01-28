@@ -438,3 +438,64 @@
 .number__slider{
     margin-top: 58px;
 }
+
+.popupTxtWrap{
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 100;
+}
+.popupTxt{
+    max-width: 700px;
+    width: 100%;
+    min-height: 600px;
+    background: #FAF0E6;
+    padding: 30px 25px;
+    border-radius: 8px;
+    position: relative;
+}
+.popupTxt__exit{
+    position: absolute;
+    right: 20px;
+    top: 31px;
+    cursor: pointer;
+    z-index: 3;
+}
+.popupTxtContent{
+    position: relative;
+    z-index: 2;
+}
+.popupEmtyBlock{
+    height: 50px;
+    width: 50px;
+    float: right;
+   
+}
+.popupTxtContent p{
+    font-size: 19px;
+    line-height: 1.4em;
+}
+.popupTxtContent h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: #162D4E;
+}
+.popupTxtContent__bg{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.1;
+}
+
+.moreBtn{
+    display: none;
+}

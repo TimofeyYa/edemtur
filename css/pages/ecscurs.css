@@ -54,6 +54,7 @@ h2{
 .ecscursCont__elemBlockCont {
     padding: 32px 20px;
     background: #FAF0E6;
+    height: 308px;
 }
 .ecscursCont__elemBlockTxt{
     padding-top: 20px;
@@ -67,6 +68,7 @@ h2{
     font-size: 16px;
     line-height: 24px;
     color: #000000;
+    cursor: pointer;
 }
 .ecscursCont__elemBlockWrap{
     width: 382px;

@@ -6,6 +6,9 @@
         padding-top: 56px;
         padding-bottom: 80px;
       }
+      .nice__sliderblockContent{
+        height: 285px;
+    }
 }
 @media screen and (max-width: 1150px){
     .nice__sliderblock,.nice__sliderblockWrap{
@@ -13,6 +16,9 @@
     }
     .nice__sliderblockPic{
         height:270px;
+    }
+    .nice__sliderblockContent{
+        height: 315px;
     }
 }
 @media screen and (max-width: 1000px){
@@ -41,6 +47,9 @@
     .nice__sliderTrackWrap{
         height: 600px;
     }
+    .nice__sliderblockContent{
+        height: 305px;
+    }
 }
 @media screen and (max-width: 800px){
     .nice__sliderblock,.nice__sliderblockWrap{
@@ -67,6 +76,9 @@
         padding-top: 46px;
         padding-bottom: 60px;
       }
+      .nice__sliderblockContent{
+        height: 285px;
+    }
       
 }
 @media screen and (max-width: 700px){
@@ -77,6 +89,7 @@
     .nice__sliderTrackWrap{
         height: 550px;
     }
+    
 }
 @media screen and (max-width: 360px){
     .nice__sliderblock,.nice__sliderblockWrap{

@@ -43,6 +43,10 @@
     .ecscursCont__elemBlockWrap:not(:last-child) {
         margin-right: 29px;
       }
+      img,svg,a,button,input{
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -moz-tap-highlight-color: rgba(0, 0, 0, 0);
+      }
 }
 @media screen and (max-width: 950px){
     .formline__form .main__btn{
@@ -83,6 +87,9 @@
       }
     .ecscursCont__elemBlocksWrap{
         height: 550px;
+    }
+    .ecscursCont__elemBlockCont {
+        height: 280px;
     }
 }
 @media screen and (max-width: 800px){
@@ -142,6 +149,18 @@
     }
     .formline{
         padding: 50px 0;
+    }
+    .popupTxtContent h3{
+        font-size: 25px;
+    }
+    .popupTxtContent p{
+        font-size: 17px;
+    }
+    .popupTxt{
+        min-height: 500px;
+    }
+    .ecscursCont__elemBlockCont {
+        height: 260px;
     }
 }
 @media screen and (max-width: 700px){
@@ -211,6 +230,12 @@
     .firstscreen__btn a{
         font-size: 16px;
     }
+    .popupTxtContent h3{
+        font-size: 22px;
+    }
+    .popupTxtContent p{
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 500px){
     .firstscreen__title h1{
@@ -266,6 +291,9 @@
     }
     .firstscreen__btn a {
         padding: 8px 12px;
+    }
+    .popupTxt{
+        height: 100%;
     }
 }
 @media screen and (max-width: 450px){

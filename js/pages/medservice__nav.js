@@ -7,6 +7,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
     const item__height = selectItem.clientHeight  + 20;
 
     let flag = 1;
+
+    selectItem.querySelector('a').removeAttribute('href');
+    
     const selectTxt = selectItem.innerHTML;
     
     selectItem.remove();
