@@ -34,8 +34,11 @@ window.addEventListener("DOMContentLoaded", ()=>{
         })
     }
 
-    track.forEach((item,index)=>{
-        selectSlider(item, restarDay__sliderWrap[index]);
-    })
+    if (window.screen.width > 1000){
+        track.forEach((item,index)=>{
+            selectSlider(item, restarDay__sliderWrap[index]);
+        })
+    }
+    
     
 })

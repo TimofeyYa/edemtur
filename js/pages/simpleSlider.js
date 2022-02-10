@@ -1,11 +1,9 @@
 'use strict'
 
 window.addEventListener('DOMContentLoaded', ()=>{
-    const medservice__controlLeft = document.querySelector('.medservice__controlLeft'),
-          medservice__controlRight = document.querySelector('.medservice__controlRight');
 
-    function setSimpleSlider(itemName,arrLeft,arrRight, column){
-        let items = document.querySelectorAll(itemName);
+    function setSimpleSlider(parent,itemName,arrLeft,arrRight, column){
+        let items = parent.querySelectorAll(itemName);
         let index = column - 1;
         let parenEl = items[0].parentElement;
         console.log(parenEl);
@@ -40,9 +38,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
             items[index - column].remove();
             console.log(items);
             index--;
-            items =document.querySelectorAll(itemName);
+            items = parent.querySelectorAll(itemName);
         })
-
+        parent
         arrLeft.addEventListener('click', ()=>{
            
             items[index].style.display = 'none';
@@ -66,5 +64,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
         })
     }
 
-    setSimpleSlider('.medservice___picItem',medservice__controlLeft,medservice__controlRight, 1);
+    const medservice__sectionWrap = document.querySelectorAll('.medservice__sectionWrap');
+
+    medservice__sectionWrap.forEach(elem =>{
+        const medservice__controlLeft = elem.querySelector('.medservice__controlLeft'),
+        medservice__controlRight = elem.querySelector('.medservice__controlRight');
+
+        setSimpleSlider(elem,'.medservice___picItem',medservice__controlLeft,medservice__controlRight, 1);
+    })
 })

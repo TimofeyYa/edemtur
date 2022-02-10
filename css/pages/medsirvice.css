@@ -95,3 +95,7 @@
 .medservice__navItem:not(:last-child){
     margin-bottom: 14px;
 }
+
+.medservice__sectionWrap:nth-child(n + 2){
+    display: none;
+}
